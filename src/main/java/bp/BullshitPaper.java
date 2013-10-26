@@ -6,6 +6,10 @@
 
 package bp;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.LinkedList;
+import java.util.List;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -13,22 +17,32 @@ import org.jsoup.nodes.Element;
 
 class Retrieve{
     private final String chromeUserAgent = "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36";
-    String get(String name) throws IOException{
-        String url = "http://podroze.onet.pl/ciekawe/odwiedz-sasiada-bialorus-to-prawdziwa-egzotyka/334mt";
-        
+    String getArticle(String url) throws IOException{
         Document doc = Jsoup.connect(url).userAgent(chromeUserAgent).get();
         
         // article
         String content = doc.select(".detail.intext").text();
-        System.out.println(content);
+        return content;
+    }
+    List<String> getComments(String url) throws IOException{
+        Document doc = Jsoup.connect(url).userAgent(chromeUserAgent).get();
         
-        // comments
+        LinkedList<String> res = new LinkedList<String>();
         for(Element e : doc.select("#forum .k_nForum_ReaderItem")){
             String commentAuthor = e.select(".k_author").text();
             String commentContent = e.select(".k_content").text();
-            System.out.println(commentAuthor + "\n" + commentContent + "\n\n");
+            res.add(commentAuthor + "\n" + commentContent);
         }
-        return null;
+        return res;
+    }
+    List<String> getLinks(String tag) throws UnsupportedEncodingException, IOException{
+        String url = "http://plejada.onet.pl/szukaj/wiadomosci,1,1,szukaj.html?qt="+URLEncoder.encode(tag, "UTF-8");
+        Document doc = Jsoup.connect(url).userAgent(chromeUserAgent).get();
+        LinkedList<String> res = new LinkedList<String>();
+        for(Element e : doc.select("#searchProxyMain .link a")){
+            res.add(e.attr("href"));
+        }
+        return res;
     }
 }
 
@@ -38,7 +52,20 @@ public class BullshitPaper {
    * @param args the command line arguments
    */
   public static void main(String[] args) throws IOException {
-      new Retrieve().get("smolensk");
+      Retrieve retrieve = new Retrieve();
+      List<String> links = retrieve.getLinks("smoleńsk");
+      for(String link : links){
+          System.out.println(link);
+      }
+
+      String firstUrl = links.get(0);
+      System.out.println("The article under the first link is:");
+      System.out.println(retrieve.getArticle(firstUrl));
+
+      System.out.println("The the comments:");
+      for(String comment : retrieve.getComments(firstUrl)){
+          System.out.println(comment);
+      }
   }
   
 }
