@@ -4,3 +4,8 @@
 *.jar
 *.war
 *.ear
+/bullshit-paper/build/
+/bullshit-paper/nbproject/private/
+/bullshit-paper-netbeans/build/
+/bullshit-paper-netbeans/nbproject/private/
+/target/
