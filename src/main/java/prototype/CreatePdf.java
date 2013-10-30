@@ -3,9 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bp;
+package prototype;
 
-import com.itextpdf.text.Chunk;
 import java.io.FileOutputStream;
 
 import com.itextpdf.text.Document;

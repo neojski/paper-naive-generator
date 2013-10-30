@@ -1,7 +1,7 @@
-package BullshitPaper;
+package bullshit_paper;
 
-import java.io.*;
-import java.util.*;
+import java.io.OutputStream;
+import java.util.List;
 
 public interface IRenderer
 {

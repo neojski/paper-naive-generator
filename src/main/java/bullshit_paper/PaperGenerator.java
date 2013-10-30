@@ -1,7 +1,8 @@
-package BullshitPaper;
+package bullshit_paper;
 
-import java.util.*;
-import java.io.*;
+import java.io.OutputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PaperGenerator
 {

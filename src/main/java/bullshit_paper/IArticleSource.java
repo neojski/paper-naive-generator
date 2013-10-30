@@ -1,6 +1,6 @@
-package BullshitPaper;
+package bullshit_paper;
 
-import java.util.*;
+import java.util.List;
 
 public interface IArticleSource
 {
