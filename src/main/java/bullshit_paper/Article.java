@@ -4,14 +4,14 @@ package bullshit_paper;
 import java.util.Date;
 import java.util.List;
 
-public class OnetArticle implements IArticle{
+public class Article implements IArticle{
     private final String title;
     private final String content;
     private final Date date;
     private final List<IComment> comments;
     
 
-    public OnetArticle(String title, String content, Date date, List<IComment> comments) {
+    public Article(String title, String content, Date date, List<IComment> comments) {
         this.title = title;
         this.content = content;
         this.date = date;
