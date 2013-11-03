@@ -21,7 +21,7 @@ public class OnetArticleSource implements IArticleSource {
         for (Element e : doc.select("#forum .k_nForum_ReaderItem")) {
             String commentAuthor = e.select(".k_author").text();
             String commentContent = e.select(".k_content").text();
-            res.add(new OnetComment(commentContent, commentAuthor, null)); // TODO: date
+            res.add(new Comment(commentContent, commentAuthor, null)); // TODO: date
         }
         return res;
     }
@@ -29,11 +29,11 @@ public class OnetArticleSource implements IArticleSource {
     private IArticle retrieveArticle(String url) {
         try {
             Document doc = Jsoup.connect(url).userAgent(chromeUserAgent).get();
-
+            
             String content = doc.select(".detail.intext").text();
             String title = doc.select("#mainTitle").text();
 
-            return new OnetArticle(title, content, new Date(), retrieveComments(doc)); // TODO: date
+            return new Article(title, content, new Date(), retrieveComments(doc)); // TODO: date
         } catch (IOException ex) {
             return null;
         }
@@ -67,7 +67,6 @@ public class OnetArticleSource implements IArticleSource {
                     res.add(article);
                 }
             }
-
             return res;
         } catch (IOException ex) {
             return null;

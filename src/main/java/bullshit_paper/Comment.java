@@ -3,12 +3,12 @@ package bullshit_paper;
 
 import java.util.Date;
 
-public class OnetComment implements IComment {
+public class Comment implements IComment {
     private final String content;
     private final String author;
     private final Date date;
 
-    public OnetComment(String content, String author, Date date) {
+    public Comment(String content, String author, Date date) {
         this.content = content;
         this.author = author;
         this.date = date;
