@@ -1,12 +1,6 @@
-package bullshit_paper_tests;
+package bullshit_paper;
 
-import static org.junit.Assert.*;
 import org.junit.Test;
-import com.itextpdf.text.Chapter;
-import bullshit_paper.IArticle;
-import bullshit_paper.IArticleSource;
-import bullshit_paper.OnetArticleSource;
-import bullshit_paper.PDFRenderer;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.*;

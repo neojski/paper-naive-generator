@@ -1,10 +1,8 @@
-package bullshit_paper_tests;
+package bullshit_paper;
 
-import static org.junit.Assert.*;
 import java.util.*;
 import java.io.*;
 import org.junit.Test;
-import bullshit_paper.*;
 
 public class PudelekArticleSourceTest
 {
