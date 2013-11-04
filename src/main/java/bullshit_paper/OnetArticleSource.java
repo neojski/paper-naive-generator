@@ -20,7 +20,11 @@ public class OnetArticleSource implements IArticleSource {
         for (Element e : doc.select("#forum .k_nForum_ReaderItem")) {
             String commentAuthor = e.select(".k_author").text();
             String commentContent = e.select(".k_content").text();
-            res.add(new Comment(commentContent, commentAuthor, new Date())); // TODO: date
+            String commentDateString = e.select(".k_nForum_CommentInfo > span:first-child").text();
+            if(commentAuthor.length() > 0){
+                commentAuthor = commentAuthor.substring(1);
+            }
+            res.add(new Comment(commentContent, commentAuthor, OnetDate.parse(commentDateString)));
         }
         return res;
     }
@@ -31,8 +35,8 @@ public class OnetArticleSource implements IArticleSource {
 
             String content = doc.select(".detail.intext").text();
             String title = doc.select("#mainTitle").text();
-
-            return new Article(title, content, new Date(), retrieveComments(doc)); // TODO: date
+            String dateString = doc.select(".datePublished").text();
+            return new Article(title, content, OnetDate.parse(dateString), retrieveComments(doc));
         } catch (IOException ex) {
             return null;
         }
