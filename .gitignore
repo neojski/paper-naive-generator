@@ -9,3 +9,5 @@
 /bullshit-paper-netbeans/build/
 /bullshit-paper-netbeans/nbproject/private/
 /target/
+
+*.pdf
