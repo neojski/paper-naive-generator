@@ -2,38 +2,33 @@ package bullshit_paper;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
 public class OnetDate {
-    private static Integer getMonth(String month){
-        String[] months = {"sty", "lut", "mar", "kwi", "maj", "cze", "lip", "sie", "wrz", "paź", "lis", "gru"};
-        return Arrays.asList(months).indexOf(month);
-    }
 
     public static Date parse(String dateString) {
         Calendar date = Calendar.getInstance();
         if (dateString.contains("wczoraj")) {
             date.add(Calendar.DATE, -1);
-        } else if(dateString.contains(",")) {
-            String[] dayMonth = dateString.substring(0, dateString.indexOf(",")).split(" ");
-
-            Integer day = Integer.parseInt(dayMonth[0], 10);
-            
-            date.set(Calendar.MONTH, getMonth(dayMonth[1]));
-            date.set(Calendar.DATE, day);
-            
-//            Locale locale = Locale.forLanguageTag("pl");
+        } else if (dateString.contains(",")) {
+            try {
+                SimpleDateFormat dayMonthFormat = new SimpleDateFormat("d MMM", Locale.forLanguageTag("pl"));
+                Calendar dayMonthCal = Calendar.getInstance();
+                dayMonthCal.setTime(dayMonthFormat.parse(dateString.split(",")[0]));
+                date.set(Calendar.MONTH, dayMonthCal.get(Calendar.MONTH));
+                date.set(Calendar.DATE, dayMonthCal.get(Calendar.DATE));
+            } catch (ParseException ex) {
+                // if parsing fails assume current date
+            }
         }
-            
         try {
             String hourString = dateString.substring(dateString.length() - 5);
-            Date parse = new SimpleDateFormat("HH:mm").parse(hourString);
-            
-            date.set(Calendar.HOUR_OF_DAY, parse.getHours());
-            date.set(Calendar.MINUTE, parse.getMinutes());
-            
+            Calendar hourMinute = Calendar.getInstance();
+            hourMinute.setTime(new SimpleDateFormat("HH:mm").parse(hourString));
+            date.set(Calendar.HOUR_OF_DAY, hourMinute.get(Calendar.HOUR_OF_DAY));
+            date.set(Calendar.MINUTE, hourMinute.get(Calendar.MINUTE));
             return date.getTime();
         } catch (ParseException ex) {
             // if that parsing fails then current hour/minute is used
