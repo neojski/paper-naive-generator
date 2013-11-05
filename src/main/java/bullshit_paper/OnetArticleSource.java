@@ -2,8 +2,9 @@ package bullshit_paper;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.net.URLEncoder;
-import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 import org.jsoup.Jsoup;
@@ -21,7 +22,7 @@ public class OnetArticleSource implements IArticleSource {
             String commentAuthor = e.select(".k_author").text();
             String commentContent = e.select(".k_content").text();
             String commentDateString = e.select(".k_nForum_CommentInfo > span:first-child").text();
-            if(commentAuthor.length() > 0){
+            if (commentAuthor.length() > 0) {
                 commentAuthor = commentAuthor.substring(1);
             }
             res.add(new Comment(commentContent, commentAuthor, OnetDate.parse(commentDateString)));
@@ -36,10 +37,22 @@ public class OnetArticleSource implements IArticleSource {
             String content = doc.select(".detail.intext").text();
             String title = doc.select("#mainTitle").text();
             String dateString = doc.select(".datePublished").text();
-            return new Article(title, content, OnetDate.parse(dateString), retrieveComments(doc));
+            return new OnetArticle(title, content, OnetDate.parse(dateString), retrieveComments(doc), retrieveImages(doc));
         } catch (IOException ex) {
             return null;
         }
+    }
+
+    private List<IImage> retrieveImages(Document doc) {
+        LinkedList<IImage> images = new LinkedList<>();
+        String url = doc.select("#mainPhoto img").attr("src");
+        try {
+            Image image = new Image(new URL(url));
+            images.add(image);
+        } catch (MalformedURLException ex) {
+            // malformed url - return empty list
+        }
+        return images;
     }
 
     private String buildQuery(List<String> tags) {
