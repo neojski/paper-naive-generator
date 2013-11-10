@@ -37,7 +37,7 @@ public class OnetArticleSource implements IArticleSource {
             String content = doc.select(".detail.intext").text();
             String title = doc.select("#mainTitle").text();
             String dateString = doc.select(".datePublished").text();
-            return new OnetArticle(title, content, OnetDate.parse(dateString), retrieveComments(doc), retrieveImages(doc));
+            return new Article(title, content, OnetDate.parse(dateString), retrieveComments(doc), retrieveImages(doc));
         } catch (IOException ex) {
             return null;
         }

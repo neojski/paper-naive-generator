@@ -1,6 +1,8 @@
 package bullshit_paper;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -72,37 +74,57 @@ public class PudelekArticleSource implements IArticleSource{
 			String title = document.title().substring(10);
 			String content = document.body().select("div[class=single-entry-text bbtext]").text();
 			String date = document.body().select("span.time").text();
-			
-			List<IComment> comments = new LinkedList<IComment>();
-			
-			LinkedList<String> commentContents = new LinkedList<String>();
-			LinkedList<String> commentDates = new LinkedList<String>();
-			
-			Elements tmp = document.body().select("div[class=comments-popular]");
-			
-			for(Element e: tmp.select("div[class=comment-text]")){
-				commentContents.add(e.text());	
-			}
-			
-			for(Element e: tmp.select("span.comment-date")){
-				commentDates.add(e.text().split(" ")[0]);	
-			}
-			
-			int index=0;
-			
-			for(Element e: tmp.select("span.comment-author")){
-				String commentAuthor = e.text();
-				comments.add(new Comment(commentContents.get(index),commentAuthor, parseDate(commentDates.get(index++))));
-			}
+		
 			
 			Date formatedDate = null;
 			if(date.split(" ").length>1){
 				formatedDate = parseDate(date.split(" ")[1]);
 			}
 			
-			return new Article(title, content, formatedDate, comments);
+			return new Article(title, content, formatedDate, extractComments(document), extractImages(document));
 		} catch (IOException e) {
 			return null;
 		}
 	}
+	
+	private List<IImage> extractImages(Document document){
+		List<IImage> images = new LinkedList<IImage>();
+		
+		for(Element e: document.body().select("div[class=single-entry-text bbtext] span.photo img")){
+			try {
+				Image image = new Image(new URL(e.attr("src")));
+				images.add(image);
+			} catch (MalformedURLException e1) {
+			}
+		}
+		
+		return images;
+	}
+
+	private List<IComment> extractComments(Document document){
+		List<IComment> comments = new LinkedList<IComment>();
+		
+		LinkedList<String> commentContents = new LinkedList<String>();
+		LinkedList<String> commentDates = new LinkedList<String>();
+		
+		Elements tmp = document.body().select("div[class=comments-popular]");
+		
+		for(Element e: tmp.select("div[class=comment-text]")){
+			commentContents.add(e.text());	
+		}
+		
+		for(Element e: tmp.select("span.comment-date")){
+			commentDates.add(e.text().split(" ")[0]);	
+		}
+		
+		int index=0;
+		
+		for(Element e: tmp.select("span.comment-author")){
+			String commentAuthor = e.text();
+			comments.add(new Comment(commentContents.get(index),commentAuthor, parseDate(commentDates.get(index++))));
+		}	
+		
+		return comments;
+	}
+
 }

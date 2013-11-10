@@ -35,7 +35,7 @@ public class ArticleMixer {
             for(String s : sentences) {
                 newContent.append(s).append(".");
             }
-            newArticles.add(new Article(article.getTitle(), newContent.toString(), article.getDate(), article.getComments()));
+            newArticles.add(new Article(article.getTitle(), newContent.toString(), article.getDate(), article.getComments(), article.getImages()));
         }
         return newArticles;
     }
