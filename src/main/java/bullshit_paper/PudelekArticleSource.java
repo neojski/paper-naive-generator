@@ -3,7 +3,6 @@ package bullshit_paper;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -95,7 +94,8 @@ public class PudelekArticleSource implements IArticleSource{
 				Image image = new Image(new URL(e.attr("src")));
 				images.add(image);
 			} catch (MalformedURLException e1) {
-			}
+			} catch (IOException ex) {
+                    }
 		}
 		
 		return images;

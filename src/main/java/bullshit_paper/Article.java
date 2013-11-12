@@ -1,17 +1,15 @@
-
 package bullshit_paper;
 
-import java.net.URL;
 import java.util.Date;
 import java.util.List;
 
-public class Article implements IArticle{
+public class Article implements IArticle {
+
     private final String title;
     private final String content;
     private final Date date;
     private final List<IComment> comments;
     private final List<IImage> images;
-    
 
     public Article(String title, String content, Date date, List<IComment> comments, List<IImage> images) {
         this.title = title;
@@ -21,7 +19,7 @@ public class Article implements IArticle{
         this.images = images;
     }
 
-	@Override
+    @Override
     public String getTitle() {
         return title;
     }
@@ -41,9 +39,9 @@ public class Article implements IArticle{
         return comments;
     }
 
-	@Override
-	public List<IImage> getImages(){
-		return images;
-	}
-    
+    @Override
+    public List<IImage> getImages() {
+        return images;
+    }
+
 }

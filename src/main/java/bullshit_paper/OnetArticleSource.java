@@ -7,6 +7,8 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -50,7 +52,9 @@ public class OnetArticleSource implements IArticleSource {
             Image image = new Image(new URL(url));
             images.add(image);
         } catch (MalformedURLException ex) {
-            // malformed url - return empty list
+            // malformed url - don't add image
+        } catch (IOException ex) {
+            // can't construct image - don't add
         }
         return images;
     }
