@@ -34,7 +34,7 @@ public class PDFRendererTest {
             for (int j = 2; j < input.size(); ++j) {
                 contentBuilder.append(input.get(j));
             }
-            arts.add(new Article(input.get(0), contentBuilder.toString(), dateFormat.parse(input.get(1)), null));
+            arts.add(new Article(input.get(0), contentBuilder.toString(), dateFormat.parse(input.get(1)), null, null));
         }
         renderer.Render(out, "bullshitpaper01", arts);
     }

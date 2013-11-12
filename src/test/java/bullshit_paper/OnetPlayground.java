@@ -13,7 +13,7 @@ public class OnetPlayground {
             System.out.printf("title %s: %s\n", article.getDate(), article.getTitle());
             String content = article.getContent();
 
-            List<IImage> images = ((OnetArticle) article).getImages();
+            List<IImage> images = article.getImages();
             for (IImage image : images) {
                 System.out.println(image.getURL());
             }
