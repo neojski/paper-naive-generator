@@ -7,7 +7,6 @@ import org.junit.Test;
 public class PudelekArticleSourceTest
 {
 
-	@Test
 	public void test() throws IOException
 	{
 		IArticleSource src = new PudelekArticleSource();

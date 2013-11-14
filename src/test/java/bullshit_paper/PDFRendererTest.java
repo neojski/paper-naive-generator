@@ -21,7 +21,6 @@ public class PDFRendererTest {
         return res;
     }
 
-    @Test
     public void testRender() throws IOException, ParseException {
 
         FileOutputStream out = new FileOutputStream("tst.pdf");
