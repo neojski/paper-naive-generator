@@ -2,13 +2,24 @@ package bullshit_paper;
 
 import static java.lang.Math.min;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
+import org.jsoup.nodes.Document;
 
 public class OnetPlayground {
 
     public static void main(String[] args) {
-        IArticleSource articleSource = new OnetArticleSource();
-        List<IArticle> articles = articleSource.getArticles(Arrays.asList("doda"));
+        OnetArticleParser articleParser = new OnetArticleParser();
+        OnetArticleProvider articleProvider = new OnetArticleProvider();
+
+        List<IArticle> articles = new LinkedList<>();
+        for (Document doc : articleProvider.getDocuments(Arrays.asList("doda"))) {
+            IArticle article = articleParser.parseDocument(doc);
+            if (article == null) {
+                continue;
+            }
+            articles.add(article);
+        }
         for (IArticle article : articles) {
             System.out.printf("title %s: %s\n", article.getDate(), article.getTitle());
             String content = article.getContent();

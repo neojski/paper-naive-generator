@@ -10,17 +10,23 @@ public class OnetDate {
 
     public static Date parse(String dateString) {
         Calendar date = Calendar.getInstance();
-        if (dateString.contains("wczoraj")) {
+        date.set(Calendar.SECOND, 0);
+        date.set(Calendar.MILLISECOND, 0);
+        dateString = dateString.toLowerCase();
+        dateString = dateString.replace(",", "");
+        if (dateString.contains("dzisiaj")) {
+            // don't set day
+        } else if (dateString.contains("wczoraj")) {
             date.add(Calendar.DATE, -1);
-        } else if (dateString.contains(",")) {
+        } else {
             try {
-                SimpleDateFormat dayMonthFormat = new SimpleDateFormat("d MMM", Locale.forLanguageTag("pl"));
+                SimpleDateFormat dayMonthFormat = new SimpleDateFormat("dd MMM", Locale.forLanguageTag("pl"));
                 Calendar dayMonthCal = Calendar.getInstance();
-                dayMonthCal.setTime(dayMonthFormat.parse(dateString.split(",")[0]));
+                dayMonthCal.setTime(dayMonthFormat.parse(dateString));
                 date.set(Calendar.MONTH, dayMonthCal.get(Calendar.MONTH));
                 date.set(Calendar.DATE, dayMonthCal.get(Calendar.DATE));
             } catch (ParseException ex) {
-                // if parsing fails assume current date
+                // if parsing fails we recover with current date
             }
         }
         try {
