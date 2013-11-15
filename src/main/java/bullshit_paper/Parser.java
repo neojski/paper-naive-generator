@@ -19,6 +19,7 @@ public class Parser {
 	    while (end != BreakIterator.DONE) {
 	        String sentence = text.substring(start, end);
 	        if (Character.isLetterOrDigit(sentence.charAt(0))) {
+	        	if(sentence.endsWith(".")) sentence += ' ';
 	            sentences.add(sentence);
 	        }
 	        
