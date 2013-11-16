@@ -3,7 +3,6 @@ package bullshit_paper;
 import static org.junit.Assert.*;
 
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 import org.junit.Test;
@@ -23,7 +22,7 @@ public class ParserTest {
 		"Oto cień mojej szpady. ",
 		"Ale są również cienie drzew i cienie istot żywych. ");
 
-		assertEquals(Parser.parseText(text).equals(sentences), true);
+		assertEquals(Parser.parseText(text), sentences);
 	}
 	
 	@Test
@@ -35,7 +34,7 @@ public class ParserTest {
 				"Rada Ministrów przyjęła dziś projekt tzw. ustawy rekrutacyjnej. ",
 				"Ustawa \"rekrutacyjna\" realizuje wyrok Trybunału Konstytucyjnego dotyczący zasad rekrutacji m.in. do przedszkoli. ");		
 
-		assertEquals(Parser.parseText(text).equals(sentences), true);
+		assertEquals(Parser.parseText(text), sentences);
 	}
 	
 	@Test
@@ -46,7 +45,6 @@ public class ParserTest {
 			"Konsument wysłał list wprost do… prezydenta. ",
 			"Zaczął recytować: „Ruszyła maszyna…”, ale dziecko mu przerwało. ");		
 
-		assertEquals(Parser.parseText(text).containsAll(sentences), true);
+		assertEquals(Parser.parseText(text), sentences);
 	}
-
 }
