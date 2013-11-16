@@ -47,4 +47,16 @@ public class ParserTest {
 
 		assertEquals(Parser.parseText(text), sentences);
 	}
+
+        @Test
+	public void ElipsisTest2() {
+		String text = "Konsument wysłał list wprost do... prezydenta. Zaczął recytować: „Ruszyła maszyna...”, ale dziecko mu przerwało.";
+
+                List<String> sentences = Arrays.asList(
+			"Konsument wysłał list wprost do... prezydenta. ",
+			"Zaczął recytować: „Ruszyła maszyna...”, ale dziecko mu przerwało. ");
+
+		assertEquals(Parser.parseText(text), sentences);
+	}
+
 }
