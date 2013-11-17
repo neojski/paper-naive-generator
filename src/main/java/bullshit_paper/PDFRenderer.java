@@ -26,11 +26,14 @@ public class PDFRenderer implements IRenderer
 				Section section = chapter.addSection(new Paragraph(art.getTitle(), titleFont));
 				section.setNumberDepth(0);
 				section.add(new Paragraph(dateFormat.format(art.getDate()), dateFont));
-				section.add(new Paragraph(art.getContent(), contentFont));				
+				if (art.getImages() != null) {
+					for (IImage img : art.getImages()) section.add(com.itextpdf.text.Image.getInstance(img.getImage(), null));
+				}
+				section.add(new Paragraph(art.getContent(), contentFont));			
 			}
 			doc.add(chapter);
 			doc.close();
 		}
-		catch (DocumentException ex) { }
+		catch (DocumentException | IOException ex) { }
 	}
 }
