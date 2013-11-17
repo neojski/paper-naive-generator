@@ -1,14 +1,18 @@
 package bullshit_paper;
 
 import static java.lang.Math.min;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import org.jsoup.nodes.Document;
+import org.junit.Test;
 
 public class OnetPlayground {
 
-    public static void main(String[] args) {
+	@Test
+    public void test() throws IOException {
         OnetArticleParser articleParser = new OnetArticleParser();
         OnetArticleProvider articleProvider = new OnetArticleProvider();
 
@@ -39,6 +43,6 @@ public class OnetPlayground {
             }
             System.out.println("\n");
         }
-
+        new PDFRenderer().Render(new FileOutputStream("onettest.pdf"), "Onet BP", articles);
     }
 }
