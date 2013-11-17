@@ -30,7 +30,7 @@ public class PDFRendererTest {
         PDFRenderer renderer = new PDFRenderer();
         List<IArticle> arts = new ArrayList<>();
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
-        for (int i = 1; i <= 3; ++i) {
+        for (int i = 1; i <= 5; ++i) {
             List<String> input = getResource(i);
             StringBuilder contentBuilder = new StringBuilder();
             int imgCount = Integer.parseInt(input.get(2));

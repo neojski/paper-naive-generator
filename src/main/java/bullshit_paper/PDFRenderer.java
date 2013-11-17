@@ -1,13 +1,23 @@
 package bullshit_paper;
 
 import java.util.*;
+import java.awt.AWTError;
+import java.awt.Graphics2D;
+import java.awt.Image;
+import java.awt.image.BufferedImage;
+import java.awt.image.ImageObserver;
 import java.io.*;
+import com.itextpdf.awt.geom.misc.RenderingHints;
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.*;
+import java.security.Timestamp;
 import java.text.*;
 
 public class PDFRenderer implements IRenderer
 {
+	static int _maxImageWidth = 300;
+	static int _maxImageHeight = 200;
+	
 	public void Render(OutputStream stream, String title, java.util.List<IArticle> articles)
 	{
 		try {
@@ -15,10 +25,14 @@ public class PDFRenderer implements IRenderer
 			PdfWriter.getInstance(doc, stream);
 			doc.addTitle(title);
 			doc.open();
-			Font paperTitleFont = FontFactory.getFont(FontFactory.TIMES_BOLD, 20.0f);
-			Font titleFont = FontFactory.getFont(FontFactory.TIMES_BOLD, 12.0f);
-			Font dateFont = FontFactory.getFont(FontFactory.TIMES_ITALIC, 8.0f);
-			Font contentFont = FontFactory.getFont(FontFactory.TIMES, 10.0f);
+			BaseFont paperTitleBaseFont = BaseFont.createFont("C:\\Windows\\Fonts\\timesbd.ttf", "Cp1250", true);
+			Font paperTitleFont = new Font(paperTitleBaseFont, 20.0f);
+			BaseFont titleBaseFont = BaseFont.createFont("C:\\Windows\\Fonts\\timesbd.ttf", "Cp1250", true);			
+			Font titleFont = new Font(titleBaseFont, 12.0f);
+			BaseFont dateBaseFont = BaseFont.createFont("C:\\Windows\\Fonts\\timesi.ttf", "Cp1250", true);			
+			Font dateFont = new Font(dateBaseFont, 8.0f);
+			BaseFont contentBaseFont = BaseFont.createFont("C:\\Windows\\Fonts\\times.ttf", "Cp1250", true);
+			Font contentFont = new Font(contentBaseFont, 10.0f);	
 			DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 			Chapter chapter = new Chapter(new Paragraph(title, paperTitleFont), 0);
 			chapter.setNumberDepth(0);
@@ -27,7 +41,10 @@ public class PDFRenderer implements IRenderer
 				section.setNumberDepth(0);
 				section.add(new Paragraph(dateFormat.format(art.getDate()), dateFont));
 				if (art.getImages() != null) {
-					for (IImage img : art.getImages()) section.add(com.itextpdf.text.Image.getInstance(img.getImage(), null));
+					for (IImage img : art.getImages()) {
+						java.awt.Image scaledImg = ScaleImage(img.getImage());
+						section.add(com.itextpdf.text.Image.getInstance(scaledImg, null));
+					}
 				}
 				section.add(new Paragraph(art.getContent(), contentFont));			
 			}
@@ -35,5 +52,18 @@ public class PDFRenderer implements IRenderer
 			doc.close();
 		}
 		catch (DocumentException | IOException ex) { }
+	}
+	
+	static java.awt.Image ScaleImage(java.awt.Image img)
+	{
+		double cff = Math.min((double)_maxImageWidth/img.getWidth(null), (double)_maxImageHeight/img.getHeight(null));
+		int w = (int)(img.getWidth(null) * cff);
+		int h = (int)(img.getHeight(null) * cff);
+        BufferedImage res = new BufferedImage(w, h, BufferedImage.TYPE_INT_RGB);
+        Graphics2D g2d = (Graphics2D)res.createGraphics();
+        g2d.addRenderingHints(new RenderingHints(RenderingHints.KEY_RENDERING,
+                RenderingHints.VALUE_RENDER_QUALITY));
+        g2d.drawImage(img, 0, 0, w, h, null);		
+        return res;
 	}
 }
