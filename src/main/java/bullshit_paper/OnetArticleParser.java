@@ -8,7 +8,7 @@ import java.util.List;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
-public class OnetArticleParser {
+public class OnetArticleParser implements IArticleParser {
     // replace non-braking space with space
     private String normalizeWhitespace(String str){
         return str.replaceAll("\\u00a0", " ");
@@ -54,6 +54,7 @@ public class OnetArticleParser {
         return images;
     }
 
+    @Override
     public IArticle parseDocument(Document document) {
         if (document == null) {
             return null;

@@ -9,7 +9,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
-public class OnetArticleProvider {
+public class OnetArticleProvider implements IArticleProvider{
     
     private final String chromeUserAgent = "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36";
     private final String searchURL = "http://plejada.onet.pl/szukaj/wiadomosci,1,1,szukaj.html?qt=";
@@ -26,6 +26,7 @@ public class OnetArticleProvider {
         }
     }
     
+    @Override
     public List<Document> getDocuments(List<String> tags) {
         if (tags == null || tags.isEmpty()) {
             return null;

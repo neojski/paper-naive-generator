@@ -12,8 +12,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class PudelekArticleParser {
+public class PudelekArticleParser implements IArticleParser {
 	
+        @Override
 	public Article parseDocument(Document document){
 		if (document == null) {
 			return null;
