@@ -14,7 +14,8 @@ public class MarkovChain {
 		graph = new HashMap<>();
 	}
 	
-	public void build(List<String> sentences){
+	public void build(String text){
+		List<String> sentences = Parser.parseText(text);
 		
 		for(String s: sentences){
 			List<String> cur = Parser.parseSentence(s);
@@ -72,5 +73,5 @@ public class MarkovChain {
 
 		return builder.toString();
 	}
-
+	
 }
