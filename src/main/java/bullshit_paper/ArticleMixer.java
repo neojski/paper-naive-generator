@@ -4,9 +4,13 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ArticleMixer {
+public class ArticleMixer implements IArticleMixer{
 
+    @Override
     public List<IArticle> Mix(List<IArticle> articles) {
+        if (articles == null) {
+            return null;
+        }
         List<IArticle> newArticles = new LinkedList<>();
         for (IArticle article : articles) {
             String content = article.getContent();

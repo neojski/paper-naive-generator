@@ -43,6 +43,7 @@ public class OnetPlayground {
             }
             System.out.println("\n");
         }
+        articles = new MultiRandomArticleMixer().Mix(articles);
         new PDFRenderer().Render(new FileOutputStream("onettest.pdf"), "Onet BP", articles);
     }
 }
