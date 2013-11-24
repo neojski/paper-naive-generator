@@ -1,5 +1,6 @@
 package bullshit_paper;
 
+import java.io.File;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -20,7 +21,7 @@ public class PudelekArticleParserTest {
     }
 
     private Document getExampleDocument() {
-        String html = TestHelper.getResourceAsString("test_articles/pudelek.html");
+        String html = TestHelper.getResourceAsString(new File("test_articles", "pudelek.html").getPath());
         Document doc = Jsoup.parse(html);
         return doc;
     }
