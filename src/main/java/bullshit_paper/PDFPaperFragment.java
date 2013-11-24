@@ -1,7 +1,8 @@
 package bullshit_paper;
 
-import java.io.OutputStream;
+import com.itextpdf.text.Document;
 
 public interface PDFPaperFragment {
-    void render(OutputStream stream);
+
+    void render(Document doc);
 }

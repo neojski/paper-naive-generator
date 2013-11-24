@@ -16,18 +16,15 @@ import com.itextpdf.text.pdf.*;
 import java.security.Timestamp;
 import java.text.*;
 
-public class PDFRenderer implements IRenderer
+public class PDFRenderer
 {
 	static int _maxImageWidth = 300;
 	static int _maxImageHeight = 200;
 	
-	public void Render(OutputStream stream, String title, java.util.List<IArticle> articles)
+	public void Render(Document doc, String title, java.util.List<IArticle> articles)
 	{
 		try {
-			Document doc = new Document();
-			PdfWriter.getInstance(doc, stream);
-			doc.addTitle(title);
-			doc.open();
+			
 			BaseFont baseFont = BaseFont.createFont("font.ttf", BaseFont.IDENTITY_H, true);			
 			Font paperTitleFont = new Font(baseFont, 20.0f);
 			Font titleFont = new Font(baseFont, 12.0f);
@@ -49,7 +46,6 @@ public class PDFRenderer implements IRenderer
 				section.add(new Paragraph(art.getContent(), contentFont));			
 			}
 			doc.add(chapter);
-			doc.close();
 		}
 		catch (DocumentException | IOException ex) { }
 	}
