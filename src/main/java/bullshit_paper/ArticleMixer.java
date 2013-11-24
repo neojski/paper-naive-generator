@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ArticleMixer {
+public class ArticleMixer implements IArticleMixer {
 
     public List<IArticle> Mix(List<IArticle> articles) {
         List<IArticle> newArticles = new LinkedList<>();

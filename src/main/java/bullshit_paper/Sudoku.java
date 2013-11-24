@@ -1,6 +1,6 @@
 package bullshit_paper;
 
-public class Sudoku {
+public class Sudoku extends PaperElement {
     private final int[][] board;
     private final int n = 9;
 

@@ -5,5 +5,5 @@ import java.util.List;
 
 public interface IRenderer
 {
-	void Render(OutputStream stream, String title, List<IArticle> articles); 
+    void render(OutputStream stream, String title, List<PaperSection> sections) throws RenderingException;
 }

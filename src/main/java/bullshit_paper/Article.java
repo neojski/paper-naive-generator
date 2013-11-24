@@ -3,7 +3,7 @@ package bullshit_paper;
 import java.util.Date;
 import java.util.List;
 
-public class Article implements IArticle {
+public class Article extends PaperElement implements IArticle {
 
     private final String title;
     private final String content;

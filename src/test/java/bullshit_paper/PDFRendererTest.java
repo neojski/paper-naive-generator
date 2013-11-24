@@ -1,5 +1,6 @@
 package bullshit_paper;
 
+import bullshit_paper_pdf.PDFRenderer;
 import org.junit.Test;
 import com.itextpdf.text.ImgCCITT;
 import java.util.*;
