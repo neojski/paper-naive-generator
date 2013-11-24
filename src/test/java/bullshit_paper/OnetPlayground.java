@@ -1,5 +1,11 @@
 package bullshit_paper;
 
+import bullshit_paper.module.article.PDFRenderer;
+import bullshit_paper.module.article.IImage;
+import bullshit_paper.module.article.IComment;
+import bullshit_paper.module.article.OnetArticleParser;
+import bullshit_paper.module.article.IArticle;
+import bullshit_paper.module.article.OnetArticleProvider;
 import static java.lang.Math.min;
 import java.io.FileOutputStream;
 import java.io.IOException;

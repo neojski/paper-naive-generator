@@ -1,11 +1,11 @@
-package bullshit_paper;
+package bullshit_paper.module.article;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.net.URL;
 import javax.imageio.ImageIO;
 
-class Image implements IImage {
+public class Image implements IImage {
 
     private final URL url;
     private final BufferedImage image;

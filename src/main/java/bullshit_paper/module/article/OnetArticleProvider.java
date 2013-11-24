@@ -1,4 +1,4 @@
-package bullshit_paper;
+package bullshit_paper.module.article;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

@@ -1,4 +1,4 @@
-package bullshit_paper;
+package bullshit_paper.module.sudoku;
 
 import java.util.Random;
 

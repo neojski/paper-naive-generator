@@ -1,5 +1,6 @@
 package bullshit_paper;
 
+import bullshit_paper.module.article.Parser;
 import static org.junit.Assert.*;
 
 import java.util.Arrays;

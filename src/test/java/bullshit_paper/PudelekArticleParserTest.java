@@ -1,5 +1,8 @@
 package bullshit_paper;
 
+import bullshit_paper.module.article.PudelekArticleParser;
+import bullshit_paper.module.article.IComment;
+import bullshit_paper.module.article.IArticle;
 import java.io.File;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package bullshit_paper;
+package bullshit_paper.module.article;
 
 import java.text.BreakIterator;
 import java.util.LinkedList;

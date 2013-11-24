@@ -1,5 +1,6 @@
-package bullshit_paper;
+package bullshit_paper.module.horoscope;
 
+import bullshit_paper.module.article.Parser;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;

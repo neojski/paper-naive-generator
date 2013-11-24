@@ -1,5 +1,5 @@
 
-package bullshit_paper;
+package bullshit_paper.module.article;
 
 import java.util.Date;
 

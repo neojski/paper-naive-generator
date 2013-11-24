@@ -1,4 +1,4 @@
-package bullshit_paper;
+package bullshit_paper.module.article;
 
 import java.util.List;
 import org.jsoup.nodes.Document;

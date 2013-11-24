@@ -1,5 +1,8 @@
-package bullshit_paper;
+package bullshit_paper.module.article;
 
+import bullshit_paper.module.article.IRenderer;
+import bullshit_paper.module.article.IArticle;
+import bullshit_paper.module.article.IImage;
 import java.util.*;
 import java.awt.AWTError;
 import java.awt.Graphics2D;

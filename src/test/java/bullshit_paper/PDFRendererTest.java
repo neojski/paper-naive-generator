@@ -1,5 +1,10 @@
 package bullshit_paper;
 
+import bullshit_paper.module.article.PDFRenderer;
+import bullshit_paper.module.article.IImage;
+import bullshit_paper.module.article.Article;
+import bullshit_paper.module.article.Image;
+import bullshit_paper.module.article.IArticle;
 import org.junit.Test;
 import java.util.*;
 import java.io.*;
