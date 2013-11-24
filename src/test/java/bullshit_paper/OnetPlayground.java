@@ -18,7 +18,6 @@ public class OnetPlayground {
     public void test() throws IOException, DocumentException, RenderingException {
 
         ArticleMixer mixer = new ArticleMixer();
-	PDFRenderer renderer = new PDFRenderer();
 	SectionInfo[] sectionInfos = new SectionInfo[] { 
 	    new SectionInfo(Arrays.asList("doda"), "Doda", java.awt.Color.PINK, true),
 	    new SectionInfo(Arrays.asList("Smoleńsk"), "Smoleńsk", java.awt.Color.BLACK, false),
@@ -31,6 +30,7 @@ public class OnetPlayground {
 	    if (si._sudoku) elements.add(new SudokuGenerator().generate());
 	    sections.add(new PaperSection(si._title, elements, si._headerColor));
 	}
+	PDFRenderer renderer = new PDFRenderer();
 	renderer.render(new FileOutputStream("onettest.pdf"), "Onet BP", sections);
     }
     

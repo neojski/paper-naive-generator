@@ -1,6 +1,6 @@
 package bullshit_paper;
 
-public class HoroscopeEntry {
+public class HoroscopeEntry extends PaperElement {
 	private String zodiacSign;
 	private String content;
 	

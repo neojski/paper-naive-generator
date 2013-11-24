@@ -14,7 +14,7 @@ public class HoroscopeBuilder {
 	private final String url = "http://horoskopy.gazeta.pl/horoskopy-magia/";
 	
 	private String preparePattern(String zodiacSign){
-		String currentDate = "01-01-2012";
+		String currentDate = "25-11-2013";
 		StringBuilder builder = new StringBuilder();
 		
 		try{
@@ -42,7 +42,8 @@ public class HoroscopeBuilder {
 	
 	public HoroscopeEntry buildEntry(String zodiacSign, int length){
 		MarkovChain mc = new MarkovChain();
-		mc.build(preparePattern(zodiacSign));		
+		mc.build(preparePattern(zodiacSign));
+		System.out.println("downloaded " + zodiacSign);
 		String content = mc.generateRandomText(length);
 		return new HoroscopeEntry(zodiacSign,content);
 	}
