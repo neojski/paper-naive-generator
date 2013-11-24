@@ -1,8 +1,6 @@
 package bullshit_paper;
 
-import bullshit_paper_pdf.PDFRenderer;
 import org.junit.Test;
-import com.itextpdf.text.ImgCCITT;
 import java.util.*;
 import java.io.*;
 import java.net.URL;
@@ -10,18 +8,8 @@ import java.text.*;
 
 public class PDFRendererTest {
     private List<String> getResource(int i) throws IOException {
-        InputStream resourceAsStream = new FileInputStream(new File("test_articles", "art" + i + ".txt").toString());
-        List<String> input = readStream(resourceAsStream);
-        return input;
-    }
-
-    private List<String> readStream(InputStream is) {
-        Scanner scanner = new Scanner(is);
-        LinkedList<String> res = new LinkedList<>();
-        while (scanner.hasNext()) {
-            res.add(scanner.nextLine());
-        }
-        return res;
+        String input = TestHelper.getResourceAsString(new File("test_articles", "art" + i + ".txt").getPath());
+        return Arrays.asList(input.split("\n"));
     }
 
     @Test
