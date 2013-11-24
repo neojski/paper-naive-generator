@@ -1,10 +1,12 @@
 package bullshit_paper;
 
+import com.itextpdf.text.DocumentException;
 import org.junit.Test;
 import java.util.*;
 import java.io.*;
 import java.net.URL;
 import java.text.*;
+import bullshit_paper_pdf.*;
 
 public class PDFRendererTest {
     private List<String> getResource(int i) throws IOException {
@@ -13,9 +15,8 @@ public class PDFRendererTest {
     }
 
     @Test
-    public void testRender() throws IOException, ParseException {
+    public void testRender() throws IOException, ParseException, DocumentException, RenderingException {
 
-        FileOutputStream out = new FileOutputStream("tst.pdf");
         PDFRenderer renderer = new PDFRenderer();
         List<IArticle> arts = new ArrayList<>();
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
@@ -30,7 +31,11 @@ public class PDFRendererTest {
             }
             arts.add(new Article(input.get(0), contentBuilder.toString(), dateFormat.parse(input.get(1)), null, images));
         }
-        renderer.Render(out, "bullshitpaper01", arts);
+	List<PaperElement> elements = new ArrayList<>();
+	for (IArticle art : arts) elements.add((Article)art);
+	List<PaperSection> sections = new ArrayList<>();
+	sections.add(new PaperSection("bullshitpaper01", elements, java.awt.Color.BLUE));
+        renderer.render(new FileOutputStream("tst.pdf"), "bullshitpaper01", sections);
     }
 
 

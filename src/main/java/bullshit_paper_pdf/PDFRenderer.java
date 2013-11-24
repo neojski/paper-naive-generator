@@ -12,7 +12,7 @@ public class PDFRenderer implements IRenderer
     private final Document _doc;
     private final PDFStyle _style;
     private final Rectangle[] _columns;
-    private final float _minElementHeight = 100f;
+    private final float _minElementHeight = 150f;
     
     public PDFRenderer() throws DocumentException, IOException
     {
@@ -22,7 +22,8 @@ public class PDFRenderer implements IRenderer
 	Font dateFont = new Font(dateBF, 8.0f);
 	BaseFont contentBF = BaseFont.createFont("times.ttf", BaseFont.IDENTITY_H, true);
 	Font contentFont = new Font(contentBF, 8.0f);	
-	_style = new PDFStyle(3, 10f, 20f, 3f, new SimpleDateFormat("yyyy-MM-dd HH:mm"), titleFont, dateFont, contentFont);
+	Font sectionTitleFont = titleFont;
+	_style = new PDFStyle(3, 10f, 20f, 3f, new SimpleDateFormat("yyyy-MM-dd HH:mm"), titleFont, dateFont, contentFont, sectionTitleFont, BaseColor.WHITE);
 	_doc = new Document();
 	_columns = new Rectangle[_style.getColumntCount()];
 	float width = (_doc.right()-_doc.left())/_style.getColumntCount();
@@ -36,9 +37,15 @@ public class PDFRenderer implements IRenderer
     {
 	try {
 	    PdfWriter writer = PdfWriter.getInstance(_doc, stream);
+	    HeaderGenerator headerGen = new HeaderGenerator(_style.getSectionTitleFont(), _style.getSectionTitleColor());
+	    writer.setPageEvent(headerGen);
 	    _doc.addTitle(title);
 	    _doc.open();
-	    for (PaperSection section : sections) renderSection(section, writer.getDirectContent());
+	    for (PaperSection section : sections) {
+		_doc.newPage();
+		headerGen.setSection(section.getTitle(), section.getHeaderColor());	
+		renderSection(section, writer.getDirectContent());
+	    }
 	    _doc.close();
 	}
 	catch (DocumentException | IOException ex) {

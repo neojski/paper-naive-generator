@@ -16,16 +16,52 @@ public class OnetPlayground {
 
 	@Test
     public void test() throws IOException, DocumentException, RenderingException {
+
+        ArticleMixer mixer = new ArticleMixer();
+	PDFRenderer renderer = new PDFRenderer();
+	SectionInfo[] sectionInfos = new SectionInfo[] { 
+	    new SectionInfo(Arrays.asList("doda"), "Doda", java.awt.Color.PINK, true),
+	    new SectionInfo(Arrays.asList("Smoleńsk"), "Smoleńsk", java.awt.Color.BLACK, false),
+	    new SectionInfo(Arrays.asList("śnieg"), "Śnieg", java.awt.Color.BLUE, true) };
+	List<PaperSection> sections = new ArrayList<>();
+	for (SectionInfo si : sectionInfos) {
+	    List<IArticle> articles = getArticles(si._tags);
+	    List<PaperElement> elements = new ArrayList<>();
+	    for (IArticle art : mixer.Mix(articles)) elements.add((Article)art);
+	    if (si._sudoku) elements.add(new SudokuGenerator().generate());
+	    sections.add(new PaperSection(si._title, elements, si._headerColor));
+	}
+	renderer.render(new FileOutputStream("onettest.pdf"), "Onet BP", sections);
+    }
+    
+    private static class SectionInfo
+    {
+	public List<String> _tags;
+	public String _title;
+	public java.awt.Color _headerColor;
+	public boolean _sudoku;
+	
+	public SectionInfo(List<String> tags, String title, java.awt.Color headerColor, boolean sudoku)
+	{
+	    _tags = tags;
+	    _title = title;
+	    _headerColor = headerColor;
+	    _sudoku = sudoku;
+	}
+    }
+    
+    private List<IArticle> getArticles(List<String> tags)
+    {
         OnetArticleParser articleParser = new OnetArticleParser();
         OnetArticleProvider articleProvider = new OnetArticleProvider();
 
         List<IArticle> articles = new LinkedList<>();
-        for (Document doc : articleProvider.getDocuments(Arrays.asList("doda"))) {
+        for (Document doc : articleProvider.getDocuments(tags)) {
             IArticle article = articleParser.parseDocument(doc);
             if (article == null) {
                 continue;
             }
-            articles.add(article);
+            if (articles.isEmpty() || !articles.get(articles.size()-1).getTitle().equals(article.getTitle())) articles.add(article);
         }
         for (IArticle article : articles) {
             System.out.printf("title %s: %s\n", article.getDate(), article.getTitle());
@@ -46,13 +82,6 @@ public class OnetPlayground {
             }
             System.out.println("\n");
         }
-        ArticleMixer mixer = new ArticleMixer();
-	PDFRenderer renderer = new PDFRenderer();
-	List<PaperElement> elements = new ArrayList<>();
-	for (IArticle art : mixer.Mix(articles)) elements.add((Article)art);
-	elements.add(new SudokuGenerator().generate());
-	List<PaperSection> sections = new ArrayList<>();
-	sections.add(new PaperSection("onet bp", elements, java.awt.Color.BLUE));
-        renderer.render(new FileOutputStream("onettest.pdf"), "Onet BP", sections);
+	return articles;
     }
 }
