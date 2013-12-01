@@ -32,3 +32,7 @@ this
 
 Once you're done just throw it into the resources directory for dictionary (`/bullshit-paper/src/main/resources/dict`)
 
+To make JavaFX work you need to have the latest version of Java and add jfxrt.jar to the local maven repository:
+```
+mvn install:install-file -Dfile="C:\Program Files\Java\jre7\lib\jfxrt.jar" -DgroupId=com.oracle -DartifactId=javafx -Dversion=2.2.45 -Dpackaging=jar
+```
