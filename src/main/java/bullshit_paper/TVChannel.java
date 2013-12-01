@@ -56,14 +56,14 @@ public class TVChannel {
 		Calendar cal = Calendar.getInstance();
 		
 		cal.set(Calendar.HOUR_OF_DAY, 22);
-		cal.set(Calendar.MINUTE, 50);
+		cal.set(Calendar.MINUTE, 45);
 		Date last = cal.getTime();
 		
 		cal.set(Calendar.HOUR_OF_DAY, 0);
 		cal.set(Calendar.MINUTE, 10+random.nextInt(20));
 		
 		while(cal.getTime().compareTo(last) < 0){
-			int duration = 60+random.nextInt(60);
+			int duration = 60+random.nextInt(90);
 			Date startTime = cal.getTime();
 			cal.add(Calendar.MINUTE, duration);
 			Date endTime = cal.getTime();
