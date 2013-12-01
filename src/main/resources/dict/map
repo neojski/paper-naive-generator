@@ -1,5 +1,4 @@
-a : rz.
-a : spójn.
+a : rz.spójn.
 a capella : przysł.
 aa : wykrz.
 abakus : rz.
@@ -63,8 +62,7 @@ absztyfikant : rz.
 aceton : rz.
 acetylen : rz.
 acetylenowy : przym.
-adadżio : przysł.
-adadżio : rz.
+adadżio : przysł.rz.
 adamaszek : rz.
 adamaszkowy : przym.
 adaptacja : rz.
@@ -551,8 +549,7 @@ amputacyjny : przym.
 amputować : cz.
 amulet : rz.
 amunicja : rz.
-amunicyjny : przym.
-amunicyjny : rz.
+amunicyjny : przym.rz.
 amur : rz.
 anaboliczny : przym.
 anabolik : rz.
@@ -626,8 +623,7 @@ anestezjologiczny : przym.
 angaż : rz.
 angażować : cz.
 angielka : rz.
-angielski : przym.
-angielski : rz.
+angielski : przym.rz.
 angielszczyzna : rz.
 angina : rz.
 anginowy : przym.
@@ -935,8 +931,7 @@ arabeska : rz.
 arabista : rz.
 arabistyczny : przym.
 arabistyka : rz.
-arabski : przym.
-arabski : rz.
+arabski : przym.rz.
 arachid : rz.
 arachidowy : przym.
 arak : rz.
@@ -1490,8 +1485,7 @@ bagatelka : rz.
 bagatelny : przym.
 bagaż : rz.
 bagażnik : rz.
-bagażowy : przym.
-bagażowy : rz.
+bagażowy : przym.rz.
 bagażówka : rz.
 bagienko : rz.
 bagienny : przym.
@@ -2005,8 +1999,7 @@ bezdewizowo : przysł.
 bezdewizowy : przym.
 bezdftkowy : przym.
 bezdomność : rz.
-bezdomny : przym.
-bezdomny : rz.
+bezdomny : przym.rz.
 bezdroże : rz.
 bezdrzewny : przym.
 bezdusznie : przysł.
@@ -2118,8 +2111,7 @@ bezpaństwowy : przym.
 bezpardonowo : przysł.
 bezpardonowy : przym.
 bezpartyjność : rz.
-bezpartyjny : przym.
-bezpartyjny : rz.
+bezpartyjny : przym.rz.
 bezpieczeństwo : rz.
 bezpieczniacki : przym.
 bezpieczniak : rz.
@@ -2173,10 +2165,8 @@ bezrefleksyjność : rz.
 bezrękawnik : rz.
 bezręki : przym.
 bezrobocie : rz.
-bezrobotny : przym.
-bezrobotny : rz.
-bezrolny : przym.
-bezrolny : rz.
+bezrobotny : przym.rz.
+bezrolny : przym.rz.
 bezrozumnie : przysł.
 bezrozumny : przym.
 bezrtęciowy : przym.
@@ -2289,8 +2279,7 @@ białkowy : przym.
 białodrzew : rz.
 białoruski : rz.
 białość : rz.
-biały : przym.
-biały : rz.
+biały : przym.rz.
 biatlon : rz.
 biba : rz.
 bibelot : rz.
@@ -2347,8 +2336,7 @@ biedni a : rz.
 biednie : przysł.
 biednieć : cz.
 biedniutki : przym.
-biedny : przym.
-biedny : rz.
+biedny : przym.rz.
 biedota : rz.
 biedować : cz.
 biedronka : rz.
@@ -2359,8 +2347,7 @@ biegaczka : rz.
 biegać : cz.
 bieganina : rz.
 biegłość : rz.
-biegły : przym.
-biegły : rz.
+biegły : przym.rz.
 biegowy : przym.
 biegówka : rz.
 biegun : rz.
@@ -2598,8 +2585,7 @@ blenda : rz.
 blezer : rz.
 blichtr : rz.
 blin : rz.
-bliski : przym.
-bliski : rz.
+bliski : przym.rz.
 bliskość : rz.
 bliskoznacznik : rz.
 bliskoznaczny : przym.
@@ -2620,8 +2606,7 @@ blok : rz.
 blokada : rz.
 blokować : cz.
 blokowisko : rz.
-blokowy : przym.
-blokowy : rz.
+blokowy : przym.rz.
 blondas : rz.
 blondyn : rz.
 blondyna : rz.
@@ -2673,8 +2658,7 @@ błogo : przysł.
 błogosławić : cz.
 błogosławieństwo : rz.
 błogosławiona : rz.
-błogosławiony : przym.
-błogosławiony : rz.
+błogosławiony : przym.rz.
 błogostan : rz.
 błogość : rz.
 błona : rz.
@@ -2745,8 +2729,7 @@ bogacz : rz.
 bogaczka : rz.
 bogatka : rz.
 bogato : przysł.
-bogaty : przym.
-bogaty : rz.
+bogaty : przym.rz.
 bogdanka : rz.
 bogini : rz.
 boginka : rz.
@@ -2814,8 +2797,7 @@ bolszewik : rz.
 bolszewizacja : rz.
 bolszewizm : rz.
 bom : rz.
-bomba : przysł.
-bomba : rz.
+bomba : przysł.rz.
 bombardier : rz.
 bombardować : cz.
 bombastyczność : rz.
@@ -2893,12 +2875,10 @@ bóść : cz.
 bóżnica : rz.
 braciszek : rz.
 bractwo : rz.
-brać : cz.
-brać : rz.
+brać : cz.rz.
 brajl : rz.
 brajlowski : przym.
-brak : cz.
-brak : rz.
+brak : cz.rz.
 brakarz : rz.
 brakorób : rz.
 brakoróbstwo : rz.
@@ -3139,8 +3119,7 @@ budować : cz.
 budowla : rz.
 budowlaniec : rz.
 budowlanka : rz.
-budowlany : przym.
-budowlany : rz.
+budowlany : przym.rz.
 budownictwo : rz.
 budowniczy : rz.
 budrysówka : rz.
@@ -3160,8 +3139,7 @@ bufa : rz.
 bufecik : rz.
 bufet : rz.
 bufetowa : rz.
-bufetowy : przym.
-bufetowy : rz.
+bufetowy : przym.rz.
 bufiasto : przysł.
 bufiasty : przym.
 bufka : rz.
@@ -3465,8 +3443,7 @@ celofan : rz.
 celofanowy : przym.
 celować : cz.
 celownica : rz.
-celowniczy : przym.
-celowniczy : rz.
+celowniczy : przym.rz.
 celownik : rz.
 celowościowy : przym.
 celowość : rz.
@@ -3557,8 +3534,7 @@ ceres : rz.
 cerkiew : rz.
 cerkiewka : rz.
 cerkiewnosłowiański : przym.
-cerkiewny : przym.
-cerkiewny : rz.
+cerkiewny : przym.rz.
 cerowaczka : rz.
 cerować : cz.
 cerowalnia : rz.
@@ -3734,8 +3710,7 @@ chęć : rz.
 chędożyć : cz.
 chętka : rz.
 chętnie : przysł.
-chętny : przym.
-chętny : rz.
+chętny : przym.rz.
 chichocik : rz.
 chichot : rz.
 chichota : rz.
@@ -3755,8 +3730,7 @@ chinina : rz.
 chininowy : przym.
 chinowiec : rz.
 chińczyk : rz.
-chiński : przym.
-chiński : rz.
+chiński : przym.rz.
 chińszczyzna : rz.
 chiromancja : rz.
 chiromanta : rz.
@@ -3805,8 +3779,7 @@ chlupać : cz.
 chlupot : rz.
 chlupotać : cz.
 chlusnąć : cz.
-chlust : rz.
-chlust : wykrz.
+chlust : rz.wykrz.
 chlustać : cz.
 chłam : rz.
 chłeptać : cz.
@@ -3907,8 +3880,7 @@ chojractwo : rz.
 chojrak : rz.
 chojrakować : cz.
 cholemik : rz.
-cholera : rz.
-cholera : wykrz.
+cholera : rz.wykrz.
 cholerny : przym.
 cholerować : cz.
 cholerowy : przym.
@@ -3939,8 +3911,7 @@ chorąży : rz.
 choreograf : rz.
 choreograficznie : przysł.
 choreograficzny : przym.
-choroba : rz.
-choroba : wykrz.
+choroba : rz.wykrz.
 chorobliwie : przysł.
 chorobliwość : rz.
 chorobliwy : przym.
@@ -3952,8 +3923,7 @@ chorować : cz.
 chorowitość : rz.
 chorowity : przym.
 choróbsko : rz.
-chory : przym.
-chory : rz.
+chory : przym.rz.
 chować : cz.
 chowany : rz.
 chód : rz.
@@ -3984,8 +3954,7 @@ chromosomowy : przym.
 chromoterapia : rz.
 chromować : cz.
 chromowy : przym.
-chromy : przym.
-chromy : rz.
+chromy : przym.rz.
 chronicznie : przysł.
 chroniczny : przym.
 chronić : cz.
@@ -4050,8 +4019,7 @@ chrzciny : rz.
 chrzest : rz.
 chrzestna : rz.
 chrzestni : rz.
-chrzestny : przym.
-chrzestny : rz.
+chrzestny : przym.rz.
 chrześcijanin : rz.
 chrześcijanka : rz.
 chrześcijański : przym.
@@ -4209,8 +4177,7 @@ ciekawić : cz.
 ciekawie : przysł.
 ciekawostka : rz.
 ciekawość : rz.
-ciekawski : przym.
-ciekawski : rz.
+ciekawski : przym.rz.
 ciekawy : rz.
 ciekły : przym.
 cielaczek : rz.
@@ -4244,8 +4211,7 @@ ciemnieć : cz.
 ciemnienie : rz.
 ciemniowy : przym.
 ciemniutki : przym.
-ciemno : przysł.
-ciemno : rz.
+ciemno : przysł.rz.
 ciemnobrązowy : przym.
 ciemnoczerwony : przym.
 ciemnogranatowy : przym.
@@ -4290,8 +4256,7 @@ cieplica : rz.
 cieplutki : przym.
 cieplutko : przysł.
 ciepławy : przym.
-ciepło : przysł.
-ciepło : rz.
+ciepło : przysł.rz.
 ciepłociąg : rz.
 ciepłolecznictwo : rz.
 ciepłolubny : przym.
@@ -4307,8 +4272,7 @@ cierniowy : przym.
 ciernisty : przym.
 cierny : przym.
 cierń : rz.
-cierpiący : przym.
-cierpiący : rz.
+cierpiący : przym.rz.
 cierpieć : cz.
 cierpienie : rz.
 cierpiętnica : rz.
@@ -4339,8 +4303,7 @@ cięgno : rz.
 ciętość : rz.
 cięty : przym.
 ciężar : rz.
-ciężarna : przym.
-ciężarna : rz.
+ciężarna : przym.rz.
 ciężarny : przym.
 ciężarowiec : rz.
 ciężarowy : przym.
@@ -4692,8 +4655,7 @@ czarnoksiężnik : rz.
 czarnooki : przym.
 czarnorynkowy : przym.
 czarnoskóra : rz.
-czarnoskóry : przym.
-czarnoskóry : rz.
+czarnoskóry : przym.rz.
 czarnowidz : rz.
 czarnowidztwo : rz.
 czarnowłosy : przym.
@@ -4702,8 +4664,7 @@ czarnoziemny : przym.
 czarnula : rz.
 czarnulka : rz.
 czarnuszka : rz.
-czarny : przym.
-czarny : rz.
+czarny : przym.rz.
 czarodziej : rz.
 czarodziejka : rz.
 czarodziejski : przym.
@@ -4720,8 +4681,7 @@ czarterowy || charterowy : przym.
 czartowski : przym.
 czarujący : przym.
 czaruś : rz.
-czas : cz.
-czas : rz.
+czas : cz.rz.
 czasem : przysł.
 czasochłonny : przym.
 czasomierz : rz.
@@ -4815,11 +4775,9 @@ czerwonawy : przym.
 czerwonka : rz.
 czerwonobrązowy : przym.
 czerwonobrunatny : przym.
-czerwonoskóry : przym.
-czerwonoskóry : rz.
+czerwonoskóry : przym.rz.
 czerwoność : rz.
-czerwony : przym.
-czerwony : rz.
+czerwony : przym.rz.
 czesać : cz.
 czesak : rz.
 czesanka : rz.
@@ -4901,8 +4859,7 @@ czternastoletni : przym.
 czternastowieczny : przym.
 czternastozgloskowy : przym.
 czternastozgłoskowiec : rz.
-czternasty : przym.
-czternasty : rz.
+czternasty : przym.rz.
 czteroaktowy : przym.
 czteroaktówka : rz.
 czterobarwny : przym.
@@ -4987,8 +4944,7 @@ czwartoligowiec : rz.
 czwartoligowy : przym.
 czwartorzęd : rz.
 czwartorzędowy : przym.
-czwarty : przym.
-czwarty : rz.
+czwarty : przym.rz.
 czworaczki : rz.
 czworak : rz.
 czworaki : przym.
@@ -5108,8 +5064,7 @@ dalekosiężność : rz.
 dalekosiężny : przym.
 dalekowidz : rz.
 dalekowzroczność : rz.
-dalekowzroczny : przym.
-dalekowzroczny : rz.
+dalekowzroczny : przym.rz.
 dalia : rz.
 dalmatyńczyk : rz.
 dalmierz : rz.
@@ -6222,8 +6177,7 @@ dorodnie : przysł.
 dorodność : rz.
 dorodny : przym.
 dorosłość : rz.
-dorosły : przym.
-dorosły : rz.
+dorosły : przym.rz.
 dorośle : przysł.
 dorośleć : cz.
 dorozumiewać się : cz.
@@ -6272,8 +6226,7 @@ dosmażać : cz.
 dostać : cz.
 dostarczać : cz.
 dostarczyciel : rz.
-dostateczny : przym.
-dostateczny : rz.
+dostateczny : przym.rz.
 dostatek : rz.
 dostatni : przym.
 dostatnio : przysł.
@@ -6586,8 +6539,7 @@ druciarz : rz.
 drucik : rz.
 druczek : rz.
 druga : rz.
-drugi : przym.
-drugi : rz.
+drugi : przym.rz.
 drugie : rz.
 drugoklasista : rz.
 drugoligowiec : rz.
@@ -6621,8 +6573,7 @@ drużba : rz.
 drużbować : cz.
 drużka : rz.
 drużyna : rz.
-drużynowy : przym.
-drużynowy : rz.
+drużynowy : przym.rz.
 drużynówka : rz.
 drwa : rz.
 drwal : rz.
@@ -6673,8 +6624,7 @@ dublować : cz.
 duch : rz.
 duchota : rz.
 duchowieństwo : rz.
-duchowny : przym.
-duchowny : rz.
+duchowny : przym.rz.
 duchowość : rz.
 duchowy : przym.
 duda : rz.
@@ -6736,8 +6686,7 @@ dwoić się : cz.
 dwoistość : rz.
 dwoisty : przym.
 dwojaczki : rz.
-dwojaki : przym.
-dwojaki : rz.
+dwojaki : przym.rz.
 dwomość : rz.
 dworak : rz.
 dworcowy : przym.
@@ -6804,8 +6753,7 @@ dwudziestotysięczny : przym.
 dwudziestowieczny : przym.
 dwudziestozłotowy : przym.
 dwudziestozłotówka : rz.
-dwudziesty : przym.
-dwudziesty : rz.
+dwudziesty : przym.rz.
 dwuetapowo : przysł.
 dwuetapowy : przym.
 dwugarbny : przym.
@@ -7128,8 +7076,7 @@ dywizjon : rz.
 dyzenteria : rz.
 dyżur : rz.
 dyżurka : rz.
-dyżurny : przym.
-dyżurny : rz.
+dyżurny : przym.rz.
 dyżurować : cz.
 dz : rz.
 dzban : rz.
@@ -7233,8 +7180,7 @@ dzielenie : rz.
 dzielić : cz.
 dzielna : rz.
 dzielnica : rz.
-dzielnicowy : przym.
-dzielnicowy : rz.
+dzielnicowy : przym.rz.
 dzielnie : przysł.
 dzielnik : rz.
 dzielność : rz.
@@ -7266,8 +7212,7 @@ dziesiąta : rz.
 dziesiątek : rz.
 dziesiątka : rz.
 dziesiątkować : cz.
-dziesiąty : przym.
-dziesiąty : rz.
+dziesiąty : przym.rz.
 dziesięcina : rz.
 dziesięcioboista : rz.
 dziesięciobój : rz.
@@ -7305,8 +7250,7 @@ dziewiarski : przym.
 dziewiarstwo : rz.
 dziewiąta : rz.
 dziewiątka : rz.
-dziewiąty : przym.
-dziewiąty : rz.
+dziewiąty : przym.rz.
 dziewica : rz.
 dziewictwo : rz.
 dziewiczość : rz.
@@ -7326,8 +7270,7 @@ dziewiętnastolatek : rz.
 dziewiętnastolatka : rz.
 dziewiętnastolecie : rz.
 dziewiętnastowieczny : przym.
-dziewiętnasty : przym.
-dziewiętnasty : rz.
+dziewiętnasty : przym.rz.
 dziewoja : rz.
 dziewucha : rz.
 dziewuszka : rz.
@@ -7339,8 +7282,7 @@ dziękczynny : przym.
 dzięki : rz.
 dziękować : cz.
 dzik : rz.
-dziki : przym.
-dziki : rz.
+dziki : przym.rz.
 dzikość : rz.
 dzikus : rz.
 dzikuska : rz.
@@ -7354,8 +7296,7 @@ dzionek : rz.
 dziób : rz.
 dzióbać : cz.
 dzisiejszy : przym.
-dziś : przysł.
-dziś : rz.
+dziś : przysł.rz.
 dziumdzia : rz.
 dziupla : rz.
 dziuplasty : przym.
@@ -7417,8 +7358,7 @@ dźwigar : rz.
 dźwigarka : rz.
 dźwignia : rz.
 dźwignica : rz.
-dźwigowy : przym.
-dźwigowy : rz.
+dźwigowy : przym.rz.
 dż : rz.
 dżaga : rz.
 dżdżownica : rz.
@@ -7455,8 +7395,7 @@ dżungla : rz.
 dżunglowy : przym.
 dżygit : rz.
 dżygitówka : rz.
-e : rz.
-e : wykrz.
+e : rz.wykrz.
 ebonit : rz.
 ebonitowy : przym.
 ech : wykrz.
@@ -8656,8 +8595,7 @@ fizjonomika : rz.
 fizjoterapeuta : rz.
 fizjoterapia : rz.
 fizyczność : rz.
-fizyczny : przym.
-fizyczny : rz.
+fizyczny : przym.rz.
 fizyk : rz.
 fizyka : rz.
 fizykalny : przym.
@@ -8840,8 +8778,7 @@ forteczka : rz.
 forteczny : przym.
 fortel : rz.
 fortepianowy : przym.
-fortissimo : przysł.
-fortissimo : rz.
+fortissimo : przysł.rz.
 fortuna : rz.
 fortunat : rz.
 fortunka : rz.
@@ -8923,8 +8860,7 @@ franciszkanin : rz.
 franciszkanka : rz.
 franciszkański : przym.
 francowaty : przym.
-francuski : przym.
-francuski : rz.
+francuski : przym.rz.
 francuskojęzyczny : przym.
 francuszczyzna : rz.
 francuzieć : cz.
@@ -9035,8 +8971,7 @@ funkcjonalność : rz.
 funkcjonalny : przym.
 funkcjonariusz : rz.
 funkcjonować : cz.
-funkcyjny : przym.
-funkcyjny : rz.
+funkcyjny : przym.rz.
 funt : rz.
 funtowy : przym.
 fura : rz.
@@ -9570,8 +9505,7 @@ głęboko : przysł.
 głębokość : rz.
 głębszy : rz.
 głodnieć : cz.
-głodny : przym.
-głodny : rz.
+głodny : przym.rz.
 głodomór : rz.
 głodować : cz.
 głodowy : przym.
@@ -9611,15 +9545,12 @@ głuchawy : przym.
 głuchnąć : cz.
 głucho : przysł.
 głuchoniemota : rz.
-głuchoniemy : przym.
-głuchoniemy : rz.
+głuchoniemy : przym.rz.
 głuchota : rz.
-głuchy : przym.
-głuchy : rz.
+głuchy : przym.rz.
 głupawy : przym.
 głupek : rz.
-głupi : przym.
-głupi : rz.
+głupi : przym.rz.
 głupia : rz.
 głupiec : rz.
 głupieć : cz.
@@ -9650,8 +9581,7 @@ gnębiciel : rz.
 gnębić : cz.
 gniada : rz.
 gniadosz : rz.
-gniady : przym.
-gniady : rz.
+gniady : przym.rz.
 gniazdko : rz.
 gniazdo : rz.
 gniazdować : cz.
@@ -9865,8 +9795,7 @@ górski : przym.
 górzystość : rz.
 górzysty : przym.
 gówniarz : rz.
-gówno : rz.
-gówno : wykrz.
+gówno : rz.wykrz.
 gra : rz.
 grab : rz.
 graba : rz.
@@ -9921,8 +9850,7 @@ gramolić sie : cz.
 gramowy : przym.
 granat : rz.
 granatnik : rz.
-granatowieć : cz.
-granatowieć : rz.
+granatowieć : cz.rz.
 granatowy : przym.
 granda : rz.
 graniastosłup : rz.
@@ -9960,8 +9888,7 @@ grawiura : rz.
 grażdanka : rz.
 grążel : rz.
 grdyka : rz.
-grecki : przym.
-grecki : rz.
+grecki : przym.rz.
 greckokatolicki : przym.
 gregorianka : rz.
 gregoriański : przym.
@@ -10076,8 +10003,7 @@ grupa : rz.
 grupka : rz.
 grupowa : rz.
 grupować : cz.
-grupowy : przym.
-grupowy : rz.
+grupowy : przym.rz.
 grusza : rz.
 gruszka : rz.
 gruszkowaty : przym.
@@ -10303,10 +10229,8 @@ halerz : rz.
 halibut : rz.
 halka : rz.
 halniak : rz.
-halny : przym.
-halny : rz.
-halo : rz.
-halo : wykrz.
+halny : przym.rz.
+halo : rz.wykrz.
 halogen : rz.
 halogenowy : przym.
 halowy : przym.
@@ -10325,8 +10249,7 @@ hamburger : rz.
 hamletyzować : cz.
 hamować : cz.
 hamująco : przysł.
-hamulcowy : przym.
-hamulcowy : rz.
+hamulcowy : przym.rz.
 hamulec : rz.
 handel : rz.
 handelek : rz.
@@ -10413,8 +10336,7 @@ heblarka : rz.
 heblować : cz.
 hebraista : rz.
 hebraistyka : rz.
-hebrajski : przym.
-hebrajski : rz.
+hebrajski : przym.rz.
 heca : rz.
 hedonistyczny : przym.
 hedonizm : rz.
@@ -10588,8 +10510,7 @@ historyczny : przym.
 historyjka : rz.
 historyk : rz.
 historyzm : rz.
-hiszpański : przym.
-hiszpański : rz.
+hiszpański : przym.rz.
 hit : rz.
 hitlerowiec : rz.
 hitlerowski : przym.
@@ -10891,8 +10812,7 @@ igrać : cz.
 igraszka : rz.
 igrek : rz.
 igrzysko : rz.
-II : cz.
-II : rz.
+II : cz.rz.
 Iinearność : rz.
 ikarowy : przym.
 ikebana : rz.
@@ -11183,8 +11103,7 @@ innowacyjny : przym.
 innowator : rz.
 innowierca : rz.
 innowierczy : przym.
-inny : przym.
-inny : rz.
+inny : przym.rz.
 inscenizacja : rz.
 inscenizacyjny : przym.
 inscenizator : rz.
@@ -11514,8 +11433,7 @@ jad : rz.
 jadaczka : rz.
 jadać : cz.
 jadalnia : rz.
-jadalny : przym.
-jadalny : rz.
+jadalny : przym.rz.
 jadło wstręt : rz.
 jadłodajnia : rz.
 jadłospis : rz.
@@ -11554,8 +11472,7 @@ jak byk : przysł.
 jak (jasna [ciężka]) cholera : przysł.
 jak na patelni : przysł.
 jak skurwysyn [skurczybyk, skurczysyn] : przysł.
-jaki : przym.
-jaki : przysł.
+jaki : przym.przysł.
 jakikolwiek : przym.
 jakiś : przym.
 jakiż : przym.
@@ -11614,8 +11531,7 @@ jarzyć się : cz.
 jarzyna : rz.
 jarzyniak : rz.
 jarzynka : rz.
-jarzynowy : przym.
-jarzynowy : rz.
+jarzynowy : przym.rz.
 jasełka : rz.
 jasełkowy : przym.
 jasiek : rz.
@@ -11693,8 +11609,7 @@ jebać : cz.
 jebaka : rz.
 jebnięty : przym.
 jechać : cz.
-jeden : przym.
-jeden : rz.
+jeden : przym.rz.
 jedenasta : rz.
 jedenastka : rz.
 jedenastodniowy : przym.
@@ -11703,8 +11618,7 @@ jedenastolatka : rz.
 jedenastoletni : przym.
 jedenastozgloskowiec : rz.
 jedenastozgłoskowy : przym.
-jedenasty : przym.
-jedenasty : rz.
+jedenasty : przym.rz.
 jedlina : rz.
 jedna : rz.
 jednać : cz.
@@ -12047,8 +11961,7 @@ kadrować : cz.
 kadrowicz : rz.
 kadrowiczka : rz.
 kadrowiec : rz.
-kadrowy : przym.
-kadrowy : rz.
+kadrowy : przym.rz.
 kadry : rz.
 kadryl : rz.
 kaduceusz : rz.
@@ -12139,8 +12052,7 @@ kalkulacja : rz.
 kalkulacje : rz.
 kalkulacyjny : przym.
 kalkulator : rz.
-kalkulować : cz.
-kalkulować : rz.
+kalkulować : cz.rz.
 kalmar : rz.
 kaloria : rz.
 kalorie : rz.
@@ -12567,8 +12479,7 @@ kartusz : rz.
 kartuz : rz.
 karty : rz.
 karuzela : rz.
-kary : przym.
-kary : rz.
+kary : przym.rz.
 karygodność : rz.
 karygodny : przym.
 karykatura : rz.
@@ -13474,8 +13385,7 @@ koloratura : rz.
 koloraturowy : przym.
 kolorować : cz.
 kolorowo : przysł.
-kolorowy : przym.
-kolorowy : rz.
+kolorowy : przym.rz.
 kolory : rz.
 kolorysta : rz.
 kolorystyczny : przym.
@@ -13621,8 +13531,7 @@ komisja : rz.
 komisowe : rz.
 komisowy : przym.
 komitet : rz.
-komitetowy : przym.
-komitetowy : rz.
+komitetowy : przym.rz.
 komitywa : rz.
 komiwojażer : rz.
 komizm : rz.
@@ -13900,8 +13809,7 @@ konkursowy : przym.
 konkury : rz.
 konkwistador : rz.
 konnica : rz.
-konny : przym.
-konny : rz.
+konny : przym.rz.
 konopie : rz.
 konopny : przym.
 konotacja : rz.
@@ -14402,8 +14310,7 @@ kośba : rz.
 kości : rz.
 kościany : przym.
 kościec : rz.
-kościelny : przym.
-kościelny : rz.
+kościelny : przym.rz.
 kościotrup : rz.
 kościotrupi : przym.
 Kościół : rz.
@@ -14441,8 +14348,7 @@ kotlinka : rz.
 kotłować : cz.
 kotłowanina : rz.
 kotłownia : rz.
-kotłowy : przym.
-kotłowy : rz.
+kotłowy : przym.rz.
 kotna : przym.
 koturn : rz.
 koturnowość : rz.
@@ -14868,8 +14774,7 @@ kryminalistka : rz.
 kryminalistyczny : przym.
 kryminalistyka : rz.
 kryminalizacja : rz.
-kryminalny : przym.
-kryminalny : rz.
+kryminalny : przym.rz.
 kryminał : rz.
 kryminogennie : przysł.
 kryminogenny : przym.
@@ -15110,8 +15015,7 @@ kulać : cz.
 kulas : rz.
 kulawiec : rz.
 kulawo : przysł.
-kulawy : przym.
-kulawy : rz.
+kulawy : przym.rz.
 kulbaczyć : cz.
 kulbaka : rz.
 kulebiak : rz.
@@ -15196,8 +15100,7 @@ kunktatorstwo : rz.
 kunszt : rz.
 kunsztowność : rz.
 kunsztowny : przym.
-kupa : przysł.
-kupa : rz.
+kupa : przysł.rz.
 kupała : rz.
 kupcowa : rz.
 kupczyć : cz.
@@ -15554,8 +15457,7 @@ lapis-lazuli : rz.
 lapisować : cz.
 lapsus : rz.
 laptop : rz.
-larghetto : przym.
-larghetto : przysł.
+larghetto : przym.przysł.
 largo : rz.
 larwa : rz.
 larwalny : przym.
@@ -15649,8 +15551,7 @@ legalność : rz.
 legalny : przym.
 legar : rz.
 legat : rz.
-legato : przysł.
-legato : rz.
+legato : przysł.rz.
 legawiec : rz.
 legawy : przym.
 legenda : rz.
@@ -15796,10 +15697,8 @@ lewizna : rz.
 lewkonia : rz.
 lewobrzeżny : przym.
 leworęczność : rz.
-leworęczny : przym.
-leworęczny : rz.
-lewoskrzydłowy : przym.
-lewoskrzydłowy : rz.
+leworęczny : przym.rz.
+lewoskrzydłowy : przym.rz.
 lewostronny : przym.
 lewus : rz.
 lewy : przym.
@@ -16018,8 +15917,7 @@ literować : cz.
 literowiec : rz.
 literowy : przym.
 literówka : rz.
-litewski : przym.
-litewski : rz.
+litewski : przym.rz.
 litkup : rz.
 litogeneza : rz.
 litografia : rz.
@@ -16319,8 +16217,7 @@ lżyć : cz.
 ładowarka : rz.
 ładownia : rz.
 ładownica : rz.
-ładowniczy : przym.
-ładowniczy : rz.
+ładowniczy : przym.rz.
 ładowność : rz.
 ładowny : przym.
 ładunek : rz.
@@ -16383,8 +16280,7 @@ lżyć : cz.
 łapówkarstwo : rz.
 łapówkarz : rz.
 łapówkowy : przym.
-łaps : rz.
-łaps : wykrz.
+łaps : rz.wykrz.
 łapseniak : rz.
 łapsko : rz.
 łasica : rz.
@@ -16516,8 +16412,7 @@ lżyć : cz.
 łotrowski : przym.
 łotrzyk : rz.
 łowca : rz.
-łowczy : przym.
-łowczy : rz.
+łowczy : przym.rz.
 łowić : cz.
 łowiecki : przym.
 łowiectwo : rz.
@@ -16593,8 +16488,7 @@ lżyć : cz.
 łysina : rz.
 łysinka : rz.
 łyso : przysł.
-łysy : przym.
-łysy : rz.
+łysy : przym.rz.
 łyszczyk : rz.
 łyżeczka : rz.
 łyżeczkować : cz.
@@ -16826,8 +16720,7 @@ malarz : rz.
 malec : rz.
 maleć : cz.
 maleńka : rz.
-maleńki : przym.
-maleńki : rz.
+maleńki : przym.rz.
 maleństwo : rz.
 maligna : rz.
 malina : rz.
@@ -16869,15 +16762,13 @@ małokalibrowy : przym.
 małokaloryczny : przym.
 małolat : rz.
 małolata : rz.
-małoletni : przym.
-małoletni : rz.
+małoletni : przym.rz.
 małolitrażowy : przym.
 małomiasteczkowy : przym.
 małomówność : rz.
 małomówny : przym.
 małoobrazkowy : przym.
-małorolny : przym.
-małorolny : rz.
+małorolny : przym.rz.
 małosolny : przym.
 małostkowość : rz.
 małostkowy : przym.
@@ -16893,8 +16784,7 @@ małpiszon : rz.
 małpka : rz.
 małpolud : rz.
 małpować : cz.
-mały : przym.
-mały : rz.
+mały : przym.rz.
 małż : rz.
 małżeński : przym.
 małżeństwo : rz.
@@ -16935,8 +16825,7 @@ manekin : rz.
 manele : rz.
 manewr : rz.
 manewrować : cz.
-manewrowy : przym.
-manewrowy : rz.
+manewrowy : przym.rz.
 manewry : rz.
 maneż : rz.
 mangan : rz.
@@ -17258,8 +17147,7 @@ mączny : przym.
 mączysty : przym.
 mądrala : rz.
 mądrość : rz.
-mądry : przym.
-mądry : rz.
+mądry : przym.rz.
 mądrze : przysł.
 mądrzeć : cz.
 mądrzyć się : cz.
@@ -17624,8 +17512,7 @@ miejscami : przysł.
 miejsce : rz.
 miejscownik : rz.
 miejscowość : rz.
-miejscowy : przym.
-miejscowy : rz.
+miejscowy : przym.rz.
 miejscówka : rz.
 miejscówkowy : przym.
 miejski : przym.
@@ -17635,8 +17522,7 @@ mienić się : cz.
 mienie : rz.
 mienszewik : rz.
 miernictwo : rz.
-mierniczy : przym.
-mierniczy : rz.
+mierniczy : przym.rz.
 miernik : rz.
 mierność : rz.
 miernota : rz.
@@ -17874,8 +17760,7 @@ miłośnictwo : rz.
 miłośniczka : rz.
 miłośnik : rz.
 miłować : cz.
-miły : przym.
-miły : rz.
+miły : przym.rz.
 mim : rz.
 mimetyzm : rz.
 mimicznie : przysł.
@@ -18058,14 +17943,12 @@ młodniak : rz.
 młodnieć : cz.
 młodnik : rz.
 młodo : przysł.
-młodociany : przym.
-młodociany : rz.
+młodociany : przym.rz.
 młodopolski : przym.
 młodopolszczyzna : rz.
 młodość : rz.
 młodszy : rz.
-młody : przym.
-młody : rz.
+młody : przym.rz.
 młodzi : rz.
 młodziak : rz.
 młodzian : rz.
@@ -18371,8 +18254,7 @@ motorowerzysta : rz.
 motorowiec : rz.
 motorowodniak : rz.
 motorowodny : przym.
-motorowy : przym.
-motorowy : rz.
+motorowy : przym.rz.
 motorówka : rz.
 motorynka : rz.
 motoryzacja : rz.
@@ -18409,11 +18291,9 @@ można : cz.
 możność : rz.
 możnowładca : rz.
 możnowładztwo : rz.
-możny : przym.
-możny : rz.
+możny : przym.rz.
 móc : cz.
-mój : przym.
-mój : rz.
+mój : przym.rz.
 mól : rz.
 mórg : rz.
 mówca : rz.
@@ -18496,8 +18376,7 @@ mumifikować : cz.
 mundur : rz.
 mundurek : rz.
 mundurować : cz.
-mundurowy : przym.
-mundurowy : rz.
+mundurowy : przym.rz.
 municypalny : przym.
 mur : rz.
 murarka : rz.
@@ -18598,8 +18477,7 @@ n : rz.
 na bosaka : przysł.
 na cacy : przysł.
 na całego : przysł.
-na całej linii : przym.
-na całej linii : przysł.
+na całej linii : przym.przysł.
 na chybił trafił : przysł.
 na co dzień : przysł.
 na czworakach : przysł.
@@ -18630,8 +18508,7 @@ na prawo i lewo : przysł.
 na przestrzał : przysł.
 na przodzie : przysł.
 na razie : wykrz.
-na śmierć i życie : przym.
-na śmierć i życie : przysł.
+na śmierć i życie : przym.przysł.
 na waleta : przysł.
 na wskroś : przysł.
 na wspak : przysł.
@@ -18713,8 +18590,7 @@ naczekać się : cz.
 naczelne : rz.
 naczelniczka : rz.
 naczelnik : rz.
-naczelny : przym.
-naczelny : rz.
+naczelny : przym.rz.
 naczepa : rz.
 naczerpać : cz.
 naczesywać : cz.
@@ -19132,8 +19008,7 @@ napastliwy : przym.
 napastniczy : przym.
 napastnik : rz.
 napastować : cz.
-napaść : cz.
-napaść : rz.
+napaść : cz.rz.
 napatoczyć się : cz.
 napatrzeć się : cz.
 napatrzyć się : cz.
@@ -19811,8 +19686,7 @@ niedoskonałość : rz.
 niedoskonały : przym.
 niedosłyszalny : przym.
 niedosłyszeć : cz.
-niedostateczny : przym.
-niedostateczny : rz.
+niedostateczny : przym.rz.
 niedostatek : rz.
 niedostępność : rz.
 niedostępny : przym.
@@ -19905,8 +19779,7 @@ niejaki : przym.
 niejasność : rz.
 niejasny : przym.
 niejawny : przym.
-niejeden : przym.
-niejeden : rz.
+niejeden : przym.rz.
 niejedna : rz.
 niejednakowy : przym.
 niejedno : rz.
@@ -19938,14 +19811,12 @@ niekrzepliwość : rz.
 niekrzepliwy : przym.
 niekształtny : przym.
 niektóre : rz.
-niektórzy : przym.
-niektórzy : rz.
+niektórzy : przym.rz.
 niekulturalny : przym.
 niekwestionowany : przym.
 nielaskawy : przym.
 nielegalny : przym.
-nieletni : przym.
-nieletni : rz.
+nieletni : przym.rz.
 nielicho : przysł.
 nielichy : przym.
 nieliczny : przym.
@@ -19973,8 +19844,7 @@ niemetalowy : przym.
 niemęskoosobowy : przym.
 niemiarodajny : przym.
 niemiarowy : przym.
-niemiecki : przym.
-niemiecki : rz.
+niemiecki : przym.rz.
 niemile : przysł.
 niemiłosiernie : przysł.
 niemiłosierny : przym.
@@ -19998,8 +19868,7 @@ niemożność : rz.
 niemrawy : przym.
 niemuzykalność : rz.
 niemuzykalny : przym.
-niemy : przym.
-niemy : rz.
+niemy : przym.rz.
 nienadzwyczajny : przym.
 nienaganny : przym.
 nienaprawialny : przym.
@@ -20022,8 +19891,7 @@ nienowoczesny : przym.
 nienowy : przym.
 nieobcy : przym.
 nieobecność : rz.
-nieobecny : przym.
-nieobecny : rz.
+nieobecny : przym.rz.
 nieobliczalny : przym.
 nieobojętny : przym.
 nieobowiązkowość : rz.
@@ -20078,8 +19946,7 @@ nieostry : przym.
 nieoswojony : przym.
 nieoszacowany : przym.
 nieożywiony : przym.
-niepalący : przym.
-niepalący : rz.
+niepalący : przym.rz.
 niepalny : przym.
 niepamiętliwy : przym.
 nieparlamentarny : przym.
@@ -20087,16 +19954,14 @@ nieparzysty : przym.
 niepedagogiczny : przym.
 niepełnoprawność : rz.
 niepełnoprawny : przym.
-niepełnosprawny : przym.
-niepełnosprawny : rz.
+niepełnosprawny : przym.rz.
 niepełność : rz.
 niepełnowartościowy : przym.
 niepełny : przym.
 niepewność : rz.
 niepewny : przym.
 niepiękny : przym.
-niepijący : przym.
-niepijący : rz.
+niepijący : przym.rz.
 niepisany : przym.
 niepiśmienny : przym.
 nieplanowy : przym.
@@ -20396,8 +20261,7 @@ nietrudny : przym.
 nietrwałość : rz.
 nietrwały : przym.
 nietrzeźwość : rz.
-nietrzeźwy : przym.
-nietrzeźwy : rz.
+nietrzeźwy : przym.rz.
 nietutejszy : przym.
 nietuzinkowy : przym.
 nietykalność : rz.
@@ -20492,11 +20356,9 @@ niewidomy : rz.
 niewidzialny : przym.
 niewiedza : rz.
 niewierność : rz.
-niewierny : przym.
-niewierny : rz.
+niewierny : przym.rz.
 niewierząca : rz.
-niewierzący : przym.
-niewierzący : rz.
+niewierzący : przym.rz.
 niewieści : przym.
 niewiniątko : rz.
 niewinnie : przysł.
@@ -20574,8 +20436,7 @@ niezachwiany : przym.
 niezadowolenie : rz.
 niezależnie : przysł.
 niezależny : przym.
-niezamężna : przym.
-niezamężna : rz.
+niezamężna : przym.rz.
 niezamożny : przym.
 niezapominajka : rz.
 niezapomniany : przym.
@@ -20607,8 +20468,7 @@ niezdara : rz.
 niezdarny : przym.
 niezdatność : rz.
 niezdatny : przym.
-niezdecydowanie : przysł.
-niezdecydowanie : rz.
+niezdecydowanie : przysł.rz.
 niezdolność : rz.
 niezdolny : przym.
 niezdrowo : przysł.
@@ -20646,8 +20506,7 @@ niezmywalny : przym.
 nieznaczny : przym.
 nieznajoma : rz.
 nieznajomość : rz.
-nieznajomy : przym.
-nieznajomy : rz.
+nieznajomy : przym.rz.
 nieznane : rz.
 nieznany : przym.
 niezniszczalność : rz.
@@ -20811,8 +20670,7 @@ normatyw : rz.
 normatywny : przym.
 nornica : rz.
 nornik : rz.
-norweski : przym.
-norweski : rz.
+norweski : przym.rz.
 nos : rz.
 nosacizna : rz.
 nosek : rz.
@@ -20879,8 +20737,7 @@ nowiusieńki : przym.
 nowiuteńki : przym.
 nowiutki : przym.
 nowobogacka : rz.
-nowobogacki : przym.
-nowobogacki : rz.
+nowobogacki : przym.rz.
 nowoczesność : rz.
 nowoczesny : przym.
 nowocześnie : przysł.
@@ -20897,8 +20754,7 @@ nowotwór : rz.
 nowoźeniec : rz.
 nowożeńcy : rz.
 nowożytny : przym.
-nowy : przym.
-nowy : rz.
+nowy : przym.rz.
 nozdrze : rz.
 nożny : przym.
 nożownik : rz.
@@ -20935,8 +20791,7 @@ numerant : rz.
 numerator : rz.
 numerek : rz.
 numerować : cz.
-numerowy : przym.
-numerowy : rz.
+numerowy : przym.rz.
 numeryczny : przym.
 numizmat : rz.
 numizmatyczny : przym.
@@ -21002,8 +20857,7 @@ obcojęzyczny : przym.
 obcokrajowiec : rz.
 obcość : rz.
 obcować : cz.
-obcy : przym.
-obcy : rz.
+obcy : przym.rz.
 obcyndalać się : cz.
 obczyzna : rz.
 obdarowywać : cz.
@@ -21120,8 +20974,7 @@ obłazić : cz.
 obłąk : rz.
 obłąkanie : rz.
 obłąkaniec : rz.
-obłąkany : przym.
-obłąkany : rz.
+obłąkany : przym.rz.
 obłąkańczy : przym.
 obłęd : rz.
 obłędnie : przysł.
@@ -21203,8 +21056,7 @@ obrazowy : przym.
 obraźliwie : przysł.
 obrażać : cz.
 obrażalska : rz.
-obrażalski : przym.
-obrażalski : rz.
+obrażalski : przym.rz.
 obrażenie : rz.
 obrażliwy : przym.
 obrażony : przym.
@@ -21432,8 +21284,7 @@ ochrzaniać : cz.
 ochwacić : cz.
 ochwat : rz.
 ociekać : cz.
-ociemniały : przym.
-ociemniały : rz.
+ociemniały : przym.rz.
 ocieniać : cz.
 ocieplać : cz.
 ocieplać się : cz.
@@ -21489,8 +21340,7 @@ odbierać : cz.
 odbieralny : przym.
 odbijać : cz.
 odbijać się : cz.
-odbijany : przym.
-odbijany : rz.
+odbijany : przym.rz.
 odbiorca : rz.
 odbiorczy : przym.
 odbiorczym : rz.
@@ -22776,8 +22626,7 @@ osiemnastolatka : rz.
 osiemnastoletni : przym.
 osiemnastomiesięczny : przym.
 osiemnastowieczny : przym.
-osiemnasty : przym.
-osiemnasty : rz.
+osiemnasty : przym.rz.
 osierdzie : rz.
 osierocać : cz.
 osika : rz.
@@ -22840,8 +22689,7 @@ osobniczy : przym.
 osobnik : rz.
 osobny : przym.
 osobowość : rz.
-osobowy : przym.
-osobowy : rz.
+osobowy : przym.rz.
 osocze : rz.
 osowiale : przysł.
 osóbka : rz.
@@ -23024,8 +22872,7 @@ otucha : rz.
 otulać : cz.
 otulina : rz.
 otumaniać : cz.
-otwarcie : przysł.
-otwarcie : rz.
+otwarcie : przysł.rz.
 otwartość : rz.
 otwarty : przym.
 otwieracz : rz.
@@ -23033,8 +22880,7 @@ otwierać : cz.
 otworek : rz.
 otwór : rz.
 otyłość : rz.
-otyły : przym.
-otyły : rz.
+otyły : przym.rz.
 outsider : rz.
 owacja : rz.
 owacyjny : przym.
@@ -23128,8 +22974,7 @@ ożywiony : przym.
 ósma : rz.
 ósmoklasista : rz.
 ósmoklasistka : rz.
-ósmy : przym.
-ósmy : rz.
+ósmy : przym.rz.
 ów : przym.
 ówczesny : przym.
 ówcześnie : przysł.
@@ -23223,8 +23068,7 @@ palarnia : rz.
 palatalizować : cz.
 palatalny : przym.
 palatyn : rz.
-palący : przym.
-palący : rz.
+palący : przym.rz.
 palce : rz.
 palcówka : rz.
 palczasty : przym.
@@ -23310,8 +23154,7 @@ panamerykański : przym.
 panceizownica : rz.
 pancerniak : rz.
 pancernik : rz.
-pancerny : przym.
-pancerny : rz.
+pancerny : przym.rz.
 pancerz : rz.
 panchromatyczny : przym.
 panczenista : rz.
@@ -23546,8 +23389,7 @@ parkieciarz : rz.
 parkiet : rz.
 parkietowy : przym.
 parking : rz.
-parkingowy : przym.
-parkingowy : rz.
+parkingowy : przym.rz.
 parkinsonizm : rz.
 parkować : cz.
 parlament : rz.
@@ -23628,8 +23470,7 @@ partycypować : cz.
 partyjka : rz.
 partyjniak : rz.
 partyjność : rz.
-partyjny : przym.
-partyjny : rz.
+partyjny : przym.rz.
 partykularny : przym.
 partykularyzm : rz.
 partytura : rz.
@@ -24039,14 +23880,12 @@ perora : rz.
 perorować : cz.
 perpetuum mobile : rz.
 pers : rz.
-perski : przym.
-perski : rz.
+perski : przym.rz.
 persona : rz.
 personalia : rz.
 personalna : rz.
 personalnie : przysł.
-personalny : przym.
-personalny : rz.
+personalny : przym.rz.
 personel : rz.
 personifikacja : rz.
 personifikować : cz.
@@ -24147,16 +23986,14 @@ piach : rz.
 piać : cz.
 piana : rz.
 pianino : rz.
-pianissimo : przysł.
-pianissimo : rz.
+pianissimo : przysł.rz.
 pianista : rz.
 pianistka : rz.
 pianistyczny : przym.
 pianistyka : rz.
 pianka : rz.
 piankowy : przym.
-piano : przysł.
-piano : rz.
+piano : przysł.rz.
 pianobeton : rz.
 pianola : rz.
 piarg : rz.
@@ -24185,19 +24022,16 @@ piątek : rz.
 piątka : rz.
 piątkowicz : rz.
 piątkowy : przym.
-piąty : przym.
-piąty : rz.
+piąty : przym.rz.
 pichcić : cz.
 picie : rz.
 pick-up : rz.
 pić : cz.
 pidżama : rz.
-piec : cz.
-piec : rz.
+piec : cz.rz.
 piechota : rz.
 piechur : rz.
-piecowy : przym.
-piecowy : rz.
+piecowy : przym.rz.
 piecuch : rz.
 piecyk : rz.
 piecza : rz.
@@ -24221,8 +24055,7 @@ pieczyste : rz.
 pieczywo : rz.
 piedestał : rz.
 pieg : rz.
-piegowaty : przym.
-piegowaty : rz.
+piegowaty : przym.rz.
 piegus : rz.
 piegża : rz.
 piekarnia : rz.
@@ -24313,8 +24146,7 @@ pierwociny : rz.
 pierwodruk : rz.
 pierwokup : rz.
 pierwopis : rz.
-pierworodny : przym.
-pierworodny : rz.
+pierworodny : przym.rz.
 pierworódka : rz.
 pierworództwo || pierworodztwo : rz.
 pierwotniak : rz.
@@ -24332,11 +24164,9 @@ pierwszomajowy : przym.
 pierwszoplanowo : przysł.
 pierwszoplanowy : przym.
 pierwszoroczniak : rz.
-pierwszoroczny : przym.
-pierwszoroczny : rz.
+pierwszoroczny : przym.rz.
 pierwszorzędny : przym.
-pierwszy : przym.
-pierwszy : rz.
+pierwszy : przym.rz.
 pierwszy z brzegu : przym.
 pierzasty : przym.
 pierzchać : cz.
@@ -24358,8 +24188,7 @@ pieszczota : rz.
 pieszczotka : rz.
 pieszczotliwie : przysł.
 pieszczotliwy : przym.
-pieszy : przym.
-pieszy : rz.
+pieszy : przym.rz.
 pieścić : cz.
 pieścidełko : rz.
 pieśniarka : rz.
@@ -24457,8 +24286,7 @@ piętnastolecie : rz.
 piętnastoletni : przym.
 piętnastomiesięczny : przym.
 piętnastominutowy : przym.
-piętnasty : przym.
-piętnasty : rz.
+piętnasty : przym.rz.
 piętnis : rz.
 piętno : rz.
 piętnować : cz.
@@ -24480,8 +24308,7 @@ pijak : rz.
 pijalnia : rz.
 pijana : rz.
 pijanica : rz.
-pijany : przym.
-pijany : rz.
+pijany : przym.rz.
 pijaństwo : rz.
 pijar : rz.
 pijarski : przym.
@@ -24686,8 +24513,7 @@ placebo : rz.
 placek : rz.
 placet : rz.
 placowe : rz.
-placowy : przym.
-placowy : rz.
+placowy : przym.rz.
 placówka : rz.
 placuszek : rz.
 placyk : rz.
@@ -24850,8 +24676,7 @@ plusz : rz.
 pluszowy : przym.
 plutokracja : rz.
 pluton : rz.
-plutonowy : przym.
-plutonowy : rz.
+plutonowy : przym.rz.
 plwocina : rz.
 płaca : rz.
 płachta : rz.
@@ -25039,8 +24864,7 @@ pobojowisko : rz.
 poboleć : cz.
 pobolewać : cz.
 poborca : rz.
-poborowy : przym.
-poborowy : rz.
+poborowy : przym.rz.
 pobory : rz.
 pobożnie : przysł.
 pobożnisia : rz.
@@ -25134,8 +24958,7 @@ począć : cz.
 początek : rz.
 początki : rz.
 początkowy : przym.
-początkujący : przym.
-początkujący : rz.
+początkujący : przym.rz.
 poczciarz : rz.
 poczciwiec : rz.
 poczciwina : rz.
@@ -25205,8 +25028,7 @@ podbijać : cz.
 podbój : rz.
 podbramkowy : przym.
 podbródek : rz.
-podbródkowy : przym.
-podbródkowy : rz.
+podbródkowy : przym.rz.
 podbrzusze : rz.
 podbudowa : rz.
 podbudowanie : rz.
@@ -25238,8 +25060,7 @@ podczaszy : rz.
 podczerniać : cz.
 podczerwień : rz.
 podczerwony : przym.
-poddany : przym.
-poddany : rz.
+poddany : przym.rz.
 poddańczy : przym.
 poddaństwo : rz.
 poddasze : rz.
@@ -25247,8 +25068,7 @@ poddawać : cz.
 poddusić : cz.
 poddzierać : cz.
 podejmować : cz.
-podejrzany : przym.
-podejrzany : rz.
+podejrzany : przym.rz.
 podejrzenie : rz.
 podejrzewać : cz.
 podejrzliwie : przysł.
@@ -25309,8 +25129,7 @@ podkładka : rz.
 podkochiwać się : cz.
 podkolanówka : rz.
 podkolorowywać : cz.
-podkomendny : przym.
-podkomendny : rz.
+podkomendny : przym.rz.
 podkomisja : rz.
 podkomorzy : rz.
 podkoniuszy : rz.
@@ -25426,8 +25245,7 @@ podokres : rz.
 podołać : cz.
 podołek : rz.
 podomka : rz.
-podopieczny : przym.
-podopieczny : rz.
+podopieczny : przym.rz.
 podorabiać : cz.
 podorastać : cz.
 podorywać : cz.
@@ -25454,8 +25272,7 @@ podpinać : cz.
 podpinka : rz.
 podpis : rz.
 podpisywać : cz.
-podpity : przym.
-podpity : rz.
+podpity : przym.rz.
 podpiwek : rz.
 podpiwniczać : cz.
 podpiwniczenie : rz.
@@ -25509,8 +25326,7 @@ podróż : rz.
 podróżniczka : rz.
 podróżniczy : przym.
 podróżnik : rz.
-podróżny : przym.
-podróżny : rz.
+podróżny : przym.rz.
 podróżować : cz.
 podrumieniać : cz.
 podruzgotać : cz.
@@ -25615,8 +25431,7 @@ podwiązywać : cz.
 podwieczorek : rz.
 podwiewać : cz.
 podwijać : cz.
-podwładny : przym.
-podwładny : rz.
+podwładny : przym.rz.
 podwoda : rz.
 podwodny : przym.
 podwoje : rz.
@@ -25870,8 +25685,7 @@ pokwękać : cz.
 pokwękiwać : cz.
 pokwitać : cz.
 pokwitanie : rz.
-pokwitowanie : cz.
-pokwitowanie : rz.
+pokwitowanie : cz.rz.
 polać się : cz.
 polakożerca : rz.
 polakożerstwo : rz.
@@ -25895,8 +25709,7 @@ polecieć : cz.
 poleczka : rz.
 polegać : cz.
 polegiwać : cz.
-poległy : przym.
-poległy : rz.
+poległy : przym.rz.
 polemiczny : przym.
 polemika : rz.
 polemista : rz.
@@ -25959,8 +25772,7 @@ politowanie : rz.
 politruk : rz.
 politura : rz.
 politurować : cz.
-polityczny : przym.
-polityczny : rz.
+polityczny : przym.rz.
 polityk : rz.
 polityka : rz.
 politykier : rz.
@@ -25997,8 +25809,7 @@ polować : cz.
 polowanie : rz.
 polowanko : rz.
 polowy : przym.
-polski : przym.
-polski : rz.
+polski : przym.rz.
 polskość : rz.
 polszczyć : cz.
 polszczyzna : rz.
@@ -26543,8 +26354,7 @@ porywisty : przym.
 porządek : rz.
 porządki : rz.
 porządkować : cz.
-porządkowy : przym.
-porządkowy : rz.
+porządkowy : przym.rz.
 porządnie : przysł.
 porządny : przym.
 porzeczka : rz.
@@ -26660,8 +26470,7 @@ posrebrzać : cz.
 posrebrzenie : rz.
 post : rz.
 postaborcyjny : przym.
-postać : cz.
-postać : rz.
+postać : cz.rz.
 postanawiać : cz.
 postanowienie : rz.
 postarać się : cz.
@@ -26904,8 +26713,7 @@ potrwać : cz.
 potrzask : rz.
 potrzaskać : cz.
 potrząsać : cz.
-potrzeba : cz.
-potrzeba : rz.
+potrzeba : cz.rz.
 potrzebny : przym.
 potrzebować : cz.
 potrzebujący : rz.
@@ -26997,8 +26805,7 @@ powieściopisarski : przym.
 powieściopisarstwo : rz.
 powieściopisarz : rz.
 powieściowy : przym.
-powieść : cz.
-powieść : rz.
+powieść : cz.rz.
 powietrze : rz.
 powiew : rz.
 powiewać : cz.
@@ -27013,8 +26820,7 @@ powinien : cz.
 powinność : rz.
 powinowactwo : rz.
 powinowata : rz.
-powinowaty : przym.
-powinowaty : rz.
+powinowaty : przym.rz.
 powinszowanie : rz.
 powiosłować : cz.
 powitalny : przym.
@@ -27595,11 +27401,9 @@ praworęczny : przym.
 praworządność : rz.
 praworządny : przym.
 prawoskrętny : przym.
-prawoskrzydłowy : przym.
-prawoskrzydłowy : rz.
+prawoskrzydłowy : przym.rz.
 prawosławie : rz.
-prawosławny : przym.
-prawosławny : rz.
+prawosławny : przym.rz.
 prawostronny : przym.
 prawość : rz.
 prawować się : cz.
@@ -27690,8 +27494,7 @@ prestidigitatorski : przym.
 prestidigitatorstwo : rz.
 prestiż : rz.
 prestiżowy : przym.
-presto : przysł.
-presto : rz.
+presto : przysł.rz.
 pretekst : rz.
 pretendent : rz.
 pretendentka : rz.
@@ -27991,8 +27794,7 @@ prostować : cz.
 prostowniczy : przym.
 prostownik : rz.
 prostracja : rz.
-prosty : przym.
-prosty : rz.
+prosty : przym.rz.
 prostytucja : rz.
 prostytutka : rz.
 proszek : rz.
@@ -28409,8 +28211,7 @@ przegotowywać : cz.
 przegrać : cz.
 przegradzać : cz.
 przegrana : rz.
-przegrany : przym.
-przegrany : rz.
+przegrany : przym.rz.
 przegroda : rz.
 przegródka : rz.
 przegrupowanie : rz.
@@ -28442,8 +28243,7 @@ przejażdżka : rz.
 przejechać się : cz.
 przejedzenie : rz.
 przejeść : cz.
-przejezdny : przym.
-przejezdny : rz.
+przejezdny : przym.rz.
 przejeździć : cz.
 przejeżdżać : cz.
 przejęcie : rz.
@@ -28555,8 +28355,7 @@ przełęcz : rz.
 przełom : rz.
 przełomowy : przym.
 przełożenie : rz.
-przełożony : przym.
-przełożony : rz.
+przełożony : przym.rz.
 przełyk : rz.
 przełykać : cz.
 przemaczać : cz.
@@ -29037,8 +28836,7 @@ przybrudzić : cz.
 przybrzeżny : przym.
 przybudowywać : cz.
 przybudówka : rz.
-przybyły : przym.
-przybyły : rz.
+przybyły : przym.rz.
 przybysz : rz.
 przybytek : rz.
 przybywać : cz.
@@ -29169,8 +28967,7 @@ przyjemniaczek : rz.
 przyjemnie : przysł.
 przyjemność : rz.
 przyjemny : przym.
-przyjezdny : przym.
-przyjezdny : rz.
+przyjezdny : przym.rz.
 przyjeżdżać : cz.
 przyjęcie : rz.
 przyjmować : cz.
@@ -29340,8 +29137,7 @@ przysiad : rz.
 przysiadać : cz.
 przysięga : rz.
 przysięgać : cz.
-przysięgły : przym.
-przysięgły : rz.
+przysięgły : przym.rz.
 przysiółek : rz.
 przyskakiwać : cz.
 przyskrzyniać : cz.
@@ -29551,8 +29347,7 @@ psychastenik : rz.
 psyche : rz.
 psychiatria : rz.
 psychiatryczny : przym.
-psychiczny : przym.
-psychiczny : rz.
+psychiczny : przym.rz.
 psychika : rz.
 psychoanalityczny : przym.
 psychoanalityk : rz.
@@ -29677,8 +29472,7 @@ pumpy : rz.
 punk : rz.
 punkcik : rz.
 punkcja : rz.
-punkt : przysł.
-punkt : rz.
+punkt : przysł.rz.
 punktacja : rz.
 punktak : rz.
 punktować : cz.
@@ -29740,8 +29534,7 @@ puścizna : rz.
 puzderko : rz.
 puzon : rz.
 puzonista : rz.
-pycha : rz.
-pycha : wykrz.
+pycha : rz.wykrz.
 pykać : cz.
 pyl : rz.
 pylica : rz.
@@ -29826,8 +29619,7 @@ racuch : rz.
 raczek : rz.
 raczkować : cz.
 raczyć : cz.
-rad : przym.
-rad : rz.
+rad : przym.rz.
 rada : rz.
 radar : rz.
 radarowy : przym.
@@ -29986,10 +29778,8 @@ ranka : rz.
 ranking : rz.
 rankingowy : przym.
 ranna : rz.
-ranny : przym.
-ranny : rz.
-rano : przysł.
-rano : rz.
+ranny : przym.rz.
+rano : przysł.rz.
 rap : rz.
 raper : rz.
 rapidograf : rz.
@@ -30035,8 +29825,7 @@ ratyfikacja : rz.
 ratyfikacyjny : przym.
 ratyfikować : cz.
 raut : rz.
-raz : przysł.
-raz : rz.
+raz : przysł.rz.
 razem : przysł.
 razić : cz.
 razowiec : rz.
@@ -30559,8 +30348,7 @@ rezerwacja : rz.
 rezerwat : rz.
 rezerwista : rz.
 rezerwować : cz.
-rezerwowy : przym.
-rezerwowy : rz.
+rezerwowy : przym.rz.
 rezerwuar : rz.
 rezolucja : rz.
 rezolutnie : przysł.
@@ -30777,8 +30565,7 @@ rosomak : rz.
 rosół : rz.
 rosówka : rz.
 rostbef : rz.
-rosyjski : przym.
-rosyjski : rz.
+rosyjski : przym.rz.
 roszada : rz.
 roszarnia : rz.
 roszczenie : rz.
@@ -31426,8 +31213,7 @@ rozwidlony : przym.
 rozwidniać : cz.
 rozwidniać się : cz.
 rozwiedziona : rz.
-rozwiedziony : przym.
-rozwiedziony : rz.
+rozwiedziony : przym.rz.
 rozwielitka : rz.
 rozwieracz : rz.
 rozwierać : cz.
@@ -31529,8 +31315,7 @@ równozgłoskowy : przym.
 równoznacznik : rz.
 równoznaczność : rz.
 równoznaczny : przym.
-równy : przym.
-równy : rz.
+równy : przym.rz.
 rózeczka : rz.
 rózga : rz.
 rózgi : rz.
@@ -31597,8 +31382,7 @@ rudawobrazowy : przym.
 rudawy : przym.
 rudera : rz.
 rudonośny : przym.
-rudy : przym.
-rudy : rz.
+rudy : przym.rz.
 rudymentarny : przym.
 rudzieć : cz.
 rudzielec : rz.
@@ -31649,8 +31433,7 @@ rurkowy : przym.
 rurociąg : rz.
 rurowy : przym.
 rusałka : rz.
-ruski : przym.
-ruski : rz.
+ruski : przym.rz.
 ruskie : rz.
 rusofil : rz.
 rusofilski : przym.
@@ -31810,8 +31593,7 @@ ryżawy : przym.
 ryżowisko : rz.
 ryżowłosy : przym.
 ryżowy : przym.
-ryży : przym.
-ryży : rz.
+ryży : przym.rz.
 rz : rz.
 rzadki : przym.
 rzadko : przysł.
@@ -32010,8 +31792,7 @@ salwa : rz.
 sałata : rz.
 sałatka : rz.
 sałatkowy : przym.
-sam : przym.
-sam : rz.
+sam : przym.rz.
 sam na sam : rz.
 samarytanin : rz.
 samarytanka : rz.
@@ -32116,8 +31897,7 @@ samotniczy : przym.
 samotnie : przysł.
 samotnik : rz.
 samotność : rz.
-samotny : przym.
-samotny : rz.
+samotny : przym.rz.
 samouczek : rz.
 samoudręczenie : rz.
 samoudręka : rz.
@@ -32281,8 +32061,7 @@ sceptyczność : rz.
 sceptyczny : przym.
 schab : rz.
 schaboszczak : rz.
-schabowy : przym.
-schabowy : rz.
+schabowy : przym.rz.
 schadzka : rz.
 scheda : rz.
 schemat : rz.
@@ -32682,8 +32461,7 @@ sierp : rz.
 sierpień : rz.
 sierpniowy : przym.
 sierpowaty : przym.
-sierpowy : przym.
-sierpowy : rz.
+sierpowy : przym.rz.
 sierpówka : rz.
 sierść : rz.
 sierżant : rz.
@@ -32742,8 +32520,7 @@ siódemka : rz.
 siódma : rz.
 siódmoklasista : rz.
 siódmoklasistka : rz.
-siódmy : przym.
-siódmy : rz.
+siódmy : przym.rz.
 sitarz : rz.
 sitko : rz.
 sito : rz.
@@ -32751,8 +32528,7 @@ sitowie : rz.
 sitwa : rz.
 sitwowy : przym.
 siuchta : rz.
-siup : rz.
-siup : wykrz.
+siup : rz.wykrz.
 siurać : cz.
 siurek : rz.
 siurpryza : rz.
@@ -33360,8 +33136,7 @@ solistyczny : przym.
 soliter : rz.
 solniczka : rz.
 solny : przym.
-solo : przysł.
-solo : rz.
+solo : przysł.rz.
 solowy : przym.
 solówka : rz.
 sołdat : rz.
@@ -33454,8 +33229,7 @@ spalenizna : rz.
 spalić : cz.
 spalinowy : przym.
 spaliny : rz.
-spalony : przym.
-spalony : rz.
+spalony : przym.rz.
 spamiętywać : cz.
 spanie : rz.
 spaniel : rz.
@@ -33714,8 +33488,7 @@ sprawdzalny : przym.
 sprawdzian : rz.
 sprawiać : cz.
 sprawiedliwość : rz.
-sprawiedliwy : przym.
-sprawiedliwy : rz.
+sprawiedliwy : przym.rz.
 sprawka : rz.
 sprawnie : przysł.
 sprawnościowy : przym.
@@ -33855,8 +33628,7 @@ stagflacja : rz.
 stagnacja : rz.
 staje : rz.
 stajenka : rz.
-stajenny : przym.
-stajenny : rz.
+stajenny : przym.rz.
 stajnia : rz.
 stal : rz.
 stalag : rz.
@@ -33901,8 +33673,7 @@ stanowisko : rz.
 stanowy : przym.
 stany : rz.
 stapiać : cz.
-stara : rz.
-stara : wykrz.
+stara : rz.wykrz.
 starać się : cz.
 staranie : rz.
 starannie : przysł.
@@ -33935,8 +33706,7 @@ staroświecki : przym.
 staroświecko : przysł.
 starowierca : rz.
 starowina : rz.
-starozakonny : przym.
-starozakonny : rz.
+starozakonny : przym.rz.
 starożytni : rz.
 starożytność : rz.
 starożytny : przym.
@@ -33955,9 +33725,7 @@ starucha : rz.
 staruszek : rz.
 staruszka : rz.
 staruszkowie : rz.
-stary : przym.
-stary : rz.
-stary : wykrz.
+stary : przym.rz.wykrz.
 starzec : rz.
 starzeć się : cz.
 starzy : rz.
@@ -34110,8 +33878,7 @@ stołeczny : przym.
 stołek : rz.
 stołować : cz.
 stołownik : rz.
-stołowy : przym.
-stołowy : rz.
+stołowy : przym.rz.
 stołówka : rz.
 stołówkowy : przym.
 stomatolog : rz.
@@ -34121,8 +33888,7 @@ stomo : rz.
 stomować : cz.
 stonka : rz.
 stonoga : rz.
-stop : rz.
-stop : wykrz.
+stop : rz.wykrz.
 stopa : rz.
 stoper : rz.
 stopień : rz.
@@ -34286,8 +34052,7 @@ stryszek : rz.
 strzał : rz.
 strzała : rz.
 strzałka : rz.
-strzałowy : przym.
-strzałowy : rz.
+strzałowy : przym.rz.
 strzaskać : cz.
 strząsać : cz.
 strzec : cz.
@@ -34573,8 +34338,7 @@ suwerenność : rz.
 suwerenny : przym.
 suwmiarka : rz.
 suwnica : rz.
-suwnicowy : przym.
-suwnicowy : rz.
+suwnicowy : przym.rz.
 suzeren : rz.
 swada : rz.
 swarliwość : rz.
@@ -34727,8 +34491,7 @@ syntezator : rz.
 sypać : cz.
 sypiać : cz.
 sypialnia : rz.
-sypialny : przym.
-sypialny : rz.
+sypialny : przym.rz.
 sypki : przym.
 sypko : przysł.
 syrena : rz.
@@ -34941,8 +34704,7 @@ szczepić : cz.
 szczepienie : rz.
 szczepionka : rz.
 szczepowa : rz.
-szczepowy : przym.
-szczepowy : rz.
+szczepowy : przym.rz.
 szczerba : rz.
 szczerbaty : przym.
 szczerbić : cz.
@@ -35027,8 +34789,7 @@ szereg : rz.
 szeregi : rz.
 szeregować : cz.
 szeregowiec : rz.
-szeregowy : przym.
-szeregowy : rz.
+szeregowy : przym.rz.
 szermierka : rz.
 szermierski : przym.
 szermierz : rz.
@@ -35048,8 +34809,7 @@ szesnastolatek : rz.
 szesnastolatka : rz.
 szesnastoletni : przym.
 szesnastowieczny : przym.
-szesnasty : przym.
-szesnasty : rz.
+szesnasty : przym.rz.
 sześcienny : przym.
 sześcioboczny : przym.
 sześciobok : rz.
@@ -35255,8 +35015,7 @@ szósta : rz.
 szóstka : rz.
 szóstoklasista : rz.
 szóstoklasistka : rz.
-szósty : przym.
-szósty : rz.
+szósty : przym.rz.
 szpachelka : rz.
 szpachla : rz.
 szpachlować : cz.
@@ -35451,8 +35210,7 @@ szwarccharakter : rz.
 szwarcować : cz.
 szwargot : rz.
 szwargotać : cz.
-szwedzki : przym.
-szwedzki : rz.
+szwedzki : przym.rz.
 szwendać się : cz.
 szwindel : rz.
 szwoleżer : rz.
@@ -35590,8 +35348,7 @@ szyszynka : rz.
 ślaz : rz.
 ślazowy : przym.
 śląski : przym.
-śledczy : przym.
-śledczy : rz.
+śledczy : przym.rz.
 śledzić : cz.
 śledzik : rz.
 śledziona : rz.
@@ -35606,8 +35363,7 @@ szyszynka : rz.
 ślepo : przysł.
 ślepota : rz.
 ślepowron : rz.
-ślepy : przym.
-ślepy : rz.
+ślepy : przym.rz.
 ślęczeć : cz.
 ślicznie : przysł.
 ślicznotka : rz.
@@ -35639,8 +35395,7 @@ szyszynka : rz.
 ślizgawka : rz.
 ślizgowy : przym.
 ślub : rz.
-ślubny : przym.
-ślubny : rz.
+ślubny : przym.rz.
 ślubować : cz.
 ślubowanie : rz.
 ślusarstwo : rz.
@@ -35659,8 +35414,7 @@ szyszynka : rz.
 śmieciarka : rz.
 śmieciarz : rz.
 śmiecić : cz.
-śmieć : cz.
-śmieć : rz.
+śmieć : cz.rz.
 śmiercionośny : przym.
 śmierć : rz.
 śmierdnąć : cz.
@@ -35803,8 +35557,7 @@ szyszynka : rz.
 świeca : rz.
 świecić : cz.
 świecidełko : rz.
-świecki : przym.
-świecki : rz.
+świecki : przym.rz.
 świeckość : rz.
 świeczka : rz.
 świecznik : rz.
@@ -35828,8 +35581,7 @@ szyszynka : rz.
 świetlany : przym.
 świetlica : rz.
 świetlicowa : rz.
-świetlicowy : przym.
-świetlicowy : rz.
+świetlicowy : przym.rz.
 świetlik : rz.
 świetlisty : przym.
 świetlny : przym.
@@ -35853,8 +35605,7 @@ szyszynka : rz.
 świętoszkowaty : przym.
 świętość : rz.
 świętować : cz.
-święty : przym.
-święty : rz.
+święty : przym.rz.
 świnia : rz.
 świniak : rz.
 świniarz : rz.
@@ -36125,8 +35876,7 @@ technika : rz.
 technikolor : rz.
 technikum : rz.
 technizacja : rz.
-techno : przym.
-techno : rz.
+techno : przym.rz.
 technoklub : rz.
 technokracja : rz.
 technokrata : rz.
@@ -36602,8 +36352,7 @@ totumfacki : rz.
 towar : rz.
 towarowiec : rz.
 towarowość : rz.
-towarowy : przym.
-towarowy : rz.
+towarowy : przym.rz.
 towaroznawstwo : rz.
 towarzyski : przym.
 towarzysko : przysł.
@@ -36806,8 +36555,7 @@ treść : rz.
 trezor : rz.
 trębacz : rz.
 trędowata : rz.
-trędowaty : przym.
-trędowaty : rz.
+trędowaty : przym.rz.
 triada : rz.
 triangiel : rz.
 triangulacja : rz.
@@ -37004,8 +36752,7 @@ trzebić : cz.
 trzebież : rz.
 trzechsetny : przym.
 trzechtysięczny : przym.
-trzeci : przym.
-trzeci : rz.
+trzeci : przym.rz.
 trzecia : rz.
 trzeciak : rz.
 trzecioklasista : rz.
@@ -37051,8 +36798,7 @@ trzydrzwiowy : przym.
 trzydziestka : rz.
 trzydziestolecie : rz.
 trzydziestoletni : przym.
-trzydziesty : przym.
-trzydziesty : rz.
+trzydziesty : przym.rz.
 trzyizbowy : przym.
 trzykilogramowy : przym.
 trzykilometrowy : przym.
@@ -37075,8 +36821,7 @@ trzynastolatka : rz.
 trzynastoletni : przym.
 trzynastozgłoskowiec : rz.
 trzynastozgłoskowy : przym.
-trzynasty : przym.
-trzynasty : rz.
+trzynasty : przym.rz.
 trzynawowy : przym.
 trzyodcinkowy : przym.
 trzyosobowy : przym.
@@ -37132,8 +36877,7 @@ tupać : cz.
 tupeciara : rz.
 tupeciarski : przym.
 tupeciarz : rz.
-tupet : cz.
-tupet : rz.
+tupet : cz.rz.
 tupot : rz.
 tupotać : cz.
 tur : rz.
@@ -37146,8 +36890,7 @@ turbosprężarka : rz.
 turbośmigłowiec : rz.
 turbośmigłowy : przym.
 turbować się : cz.
-turecki : przym.
-turecki : rz.
+turecki : przym.rz.
 turkawka : rz.
 turkologia : rz.
 turkot : rz.
@@ -37171,8 +36914,7 @@ tusza : rz.
 tuszka : rz.
 tuszować : cz.
 tutaj : przysł.
-tutejszy : przym.
-tutejszy : rz.
+tutejszy : przym.rz.
 tutka : rz.
 tuz : rz.
 tuzin : rz.
@@ -37518,8 +37260,7 @@ układny : przym.
 ukochać : cz.
 ukochana : rz.
 ukochanie : rz.
-ukochany : przym.
-ukochany : rz.
+ukochany : przym.rz.
 ukojenie : rz.
 ukołysać : cz.
 ukonkretniać : cz.
@@ -37535,8 +37276,7 @@ ukośny : przym.
 ukracać : cz.
 ukradkowy : przym.
 ukrainizm : rz.
-ukraiński : przym.
-ukraiński : rz.
+ukraiński : przym.rz.
 ukręcić : cz.
 ukrop : rz.
 ukruszyć : cz.
@@ -37612,14 +37352,12 @@ ułatwiać : cz.
 ułatwienie : rz.
 ułomek : rz.
 ułomność : rz.
-ułomny : przym.
-ułomny : rz.
+ułomny : przym.rz.
 ułożenie : rz.
 ułuda : rz.
 umacniać : cz.
 umarlak : rz.
-umarły : przym.
-umarły : rz.
+umarły : przym.rz.
 umartwiać : cz.
 umartwienie : rz.
 umarzać : cz.
@@ -37667,8 +37405,7 @@ umysł : rz.
 umysłowość : rz.
 umysłowy : przym.
 umyślić : cz.
-umyślny : przym.
-umyślny : rz.
+umyślny : przym.rz.
 umywać : cz.
 umywalka : rz.
 umywalnia : rz.
@@ -37701,8 +37438,7 @@ unikać : cz.
 unikalny : przym.
 unikat : rz.
 unikatowy : przym.
-unisono : przysł.
-unisono : rz.
+unisono : przysł.rz.
 unita : rz.
 uniwerek : rz.
 uniwersalia : rz.
@@ -37814,8 +37550,7 @@ uprzykrzać : cz.
 uprzykrzony : przym.
 uprzytomniać || uprzytamniać : cz.
 uprzywilejowanie : rz.
-uprzywilejowany : przym.
-uprzywilejowany : rz.
+uprzywilejowany : przym.rz.
 upstrzyć się : cz.
 upublicznić : cz.
 upublicznienie : rz.
@@ -38253,8 +37988,7 @@ wagon : rz.
 wagonik : rz.
 wagonownia : rz.
 wagonowy : przym.
-wagowy : przym.
-wagowy : rz.
+wagowy : przym.rz.
 wahacz : rz.
 wahać : cz.
 wahadełko : rz.
@@ -38488,8 +38222,7 @@ wczesny : przym.
 wcześniak : rz.
 wcześnie : przysł.
 wczołgać się : cz.
-wczoraj : przysł.
-wczoraj : rz.
+wczoraj : przysł.rz.
 wczorajszy : przym.
 wczytywać : cz.
 wdać się : cz.
@@ -38748,8 +38481,7 @@ wichura : rz.
 wici : rz.
 wiciokrzew : rz.
 wiciowiec : rz.
-wić : cz.
-wić : rz.
+wić : cz.rz.
 widać : cz.
 widelczyk : rz.
 widelec : rz.
@@ -38829,8 +38561,7 @@ wielebny : przym.
 wielgachny : przym.
 Wielkanoc : rz.
 wielkanocny : przym.
-wielki : przym.
-wielki : rz.
+wielki : przym.rz.
 wielkodusznie : przysł.
 wielkoduszność : rz.
 wielkoduszny : przym.
@@ -38864,8 +38595,7 @@ wieloczłonowy : przym.
 wieloczynnościowy : przym.
 wielodniowy : przym.
 wielodzietność : rz.
-wielodzietny : przym.
-wielodzietny : rz.
+wielodzietny : przym.rz.
 wieloetapowy : przym.
 wielofazowy : przym.
 wielofunkcyjność : rz.
@@ -38957,8 +38687,7 @@ wiercipięta : rz.
 wiernie : przysł.
 wiernopoddańczy : przym.
 wierność : rz.
-wierny : przym.
-wierny : rz.
+wierny : przym.rz.
 wiersz : rz.
 wierszokleta : rz.
 wierszowany : przym.
@@ -38970,8 +38699,7 @@ wiertacz : rz.
 wiertarka : rz.
 wiertło : rz.
 wiertnictwo : rz.
-wiertniczy : przym.
-wiertniczy : rz.
+wiertniczy : przym.rz.
 wierutny : przym.
 wierzący : rz.
 wierzba : rz.
@@ -38997,8 +38725,7 @@ wieszczka : rz.
 wieszczy : przym.
 wieś : rz.
 wieścić : cz.
-wieść : cz.
-wieść : rz.
+wieść : cz.rz.
 wieść się : cz.
 wieśniaczka : rz.
 wieśniak : rz.
@@ -39081,14 +38808,12 @@ winiarz : rz.
 winić : cz.
 winidur : rz.
 winidurowy : przym.
-winien : cz.
-winien : przym.
+winien : cz.przym.
 winieta : rz.
 winko : rz.
 winnica : rz.
 winniczek : rz.
-winny : przym.
-winny : rz.
+winny : przym.rz.
 wino : rz.
 winobluszcz : rz.
 winobranie : rz.
@@ -39279,8 +39004,7 @@ włosie : rz.
 włosiennica : rz.
 włosień : rz.
 włosisko : rz.
-włoski : przym.
-włoski : rz.
+włoski : przym.rz.
 włoskowatość : rz.
 włoskowaty : przym.
 włosowy : przym.
@@ -39400,8 +39124,7 @@ wojowniczy : przym.
 wojownik : rz.
 wojsko : rz.
 wojskowość : rz.
-wojskowy : przym.
-wojskowy : rz.
+wojskowy : przym.rz.
 wokaliczny : przym.
 wokalista : rz.
 wokalistka : rz.
@@ -39426,8 +39149,7 @@ woli : przym.
 wolicjonalny : przym.
 wolne : rz.
 wolnego : wykrz.
-wolno : cz.
-wolno : przysł.
+wolno : cz.przysł.
 wolnocłowy : przym.
 wolnomularski : przym.
 wolnomularstwo : rz.
@@ -39442,8 +39164,7 @@ wolnorynkowy : przym.
 wolnościowiec : rz.
 wolnościowy : przym.
 wolność : rz.
-wolny : przym.
-wolny : rz.
+wolny : przym.rz.
 wolontariat : rz.
 wolontariusz : rz.
 wolontariuszka : rz.
@@ -39461,8 +39182,7 @@ wołanie : rz.
 wołek : rz.
 wołowina : rz.
 wołowy : przym.
-won : rz.
-won : wykrz.
+won : rz.wykrz.
 wonieć : cz.
 wonnie : przysł.
 wonność : rz.
@@ -39643,8 +39363,7 @@ współbiesiadnik : rz.
 współbrzmieć : cz.
 współbrzmienie : rz.
 współczesność : rz.
-współczesny : przym.
-współczesny : rz.
+współczesny : przym.rz.
 współcześnie : przysł.
 współczucie : rz.
 współczuć : cz.
@@ -39717,8 +39436,7 @@ wstrzemięźliwość : rz.
 wstrzemięźliwy : przym.
 wstrzykiwać : cz.
 wstrzymywać : cz.
-wstyd : cz.
-wstyd : rz.
+wstyd : cz.rz.
 wstydliwie : przysł.
 wstydliwość : rz.
 wstydliwy : przym.
@@ -39749,8 +39467,7 @@ wszelaki : przym.
 wszelako : przysł.
 wszelki : przym.
 wszeteczny : przym.
-wszędobylski : przym.
-wszędobylski : rz.
+wszędobylski : przym.rz.
 wszyscy : rz.
 wszystek : przym.
 wszystko : rz.
@@ -40481,8 +40198,7 @@ wyrazowy : przym.
 wyraźnie : przysł.
 wyraźny : przym.
 wyrażać : cz.
-wyrażenie : cz.
-wyrażenie : rz.
+wyrażenie : cz.rz.
 wyrąb : rz.
 wyrąbać : cz.
 wyrąbywać : cz.
@@ -40902,8 +40618,7 @@ z dala : przysł.
 z góry : przysł.
 z mety : przysł.
 z musu : przysł.
-z natury : przym.
-z natury : przysł.
+z natury : przym.przysł.
 z pocałowaniem ręki : przysł.
 z pola : przym.
 z powodzeniem : przysł.
@@ -40922,8 +40637,7 @@ za widna : przysł.
 zaabsorbować : cz.
 zaaferowany : przym.
 zaatakować : cz.
-zaawansowany : przym.
-zaawansowany : rz.
+zaawansowany : przym.rz.
 zabagniony : przym.
 zabalowac : cz.
 zabarwiać : cz.
@@ -41112,8 +40826,7 @@ zadowalający : przym.
 zadowolenie : rz.
 zadowolony : przym.
 zadra : rz.
-zadrapanie : cz.
-zadrapanie : rz.
+zadrapanie : cz.rz.
 zadrapnięcie : rz.
 zadrapywać : cz.
 zadrasnąć : cz.
@@ -41200,8 +40913,7 @@ zagęszczenie : rz.
 zagięcie : rz.
 zaginać : cz.
 zaginąć : cz.
-zaginiony : przym.
-zaginiony : rz.
+zaginiony : przym.rz.
 zaglądać : cz.
 zagłada : rz.
 zagłaskiwać : cz.
@@ -41352,8 +41064,7 @@ zakłopotany : przym.
 zakłócać : cz.
 zakłócenie : rz.
 zakłuwać : cz.
-zakochany : przym.
-zakochany : rz.
+zakochany : przym.rz.
 zakochiwać się : cz.
 zakole : rz.
 zakołatać : cz.
@@ -41481,8 +41192,7 @@ załzawiony : przym.
 zamach : rz.
 zamachnąć się : cz.
 zamachowiec : rz.
-zamachowy : przym.
-zamachowy : rz.
+zamachowy : przym.rz.
 zamaczać : cz.
 zamajaczyć : cz.
 zamakać : cz.
@@ -41512,8 +41222,7 @@ zamiar : rz.
 zamiatać : cz.
 zamiatarka : rz.
 zamieć : rz.
-zamiejscowy : przym.
-zamiejscowy : rz.
+zamiejscowy : przym.rz.
 zamieniać : cz.
 zamiennia : rz.
 zamiennik : rz.
@@ -41589,8 +41298,7 @@ zanudzać : cz.
 zanurzać : cz.
 zanurzenie : rz.
 zaocznie : przysł.
-zaoczny : przym.
-zaoczny : rz.
+zaoczny : przym.rz.
 zaofiarowywać : cz.
 zaogniać : cz.
 zaognienie : rz.
@@ -41646,8 +41354,7 @@ zapasowy : przym.
 zapastować : cz.
 zapasy : rz.
 zapaszek : rz.
-zapaść : cz.
-zapaść : rz.
+zapaść : cz.rz.
 zapaść się : cz.
 zapaśnictwo : rz.
 zapaśniczy : przym.
@@ -41706,8 +41413,7 @@ zapodawać : cz.
 zapodziewać : cz.
 zapolować : cz.
 zapominać : cz.
-zapominalski : przym.
-zapominalski : rz.
+zapominalski : przym.rz.
 zapomnienie : rz.
 zapomoga : rz.
 zapomogowy : przym.
@@ -41860,8 +41566,7 @@ zasłuchać się : cz.
 zasłuchany : przym.
 zasługa : rz.
 zasługiwać : cz.
-zasłużony : przym.
-zasłużony : rz.
+zasłużony : przym.rz.
 zasłużyć się : cz.
 zasłynąć : cz.
 zasłyszeć : cz.
@@ -42200,8 +41905,7 @@ zbożny : przym.
 zbożowy : przym.
 zbój : rz.
 zbójecki : przym.
-zbójnicki : przym.
-zbójnicki : rz.
+zbójnicki : przym.rz.
 zbójnik : rz.
 zbrodnia : rz.
 zbrodniarka : rz.
@@ -42504,8 +42208,7 @@ zielone : rz.
 zielonka : rz.
 zielonkawy : przym.
 zielononóżka : rz.
-zielony : przym.
-zielony : rz.
+zielony : przym.rz.
 zielsko : rz.
 ziemia : rz.
 ziemianin : rz.
@@ -42524,8 +42227,7 @@ ziębnąć : cz.
 zima : rz.
 zimna : rz.
 zimnica : rz.
-zimno : przysł.
-zimno : rz.
+zimno : przysł.rz.
 zimnokrwisty : przym.
 zimnowojenny : przym.
 zimny : przym.
@@ -42631,8 +42333,7 @@ złotowłosy : przym.
 złotowy : przym.
 złotówka : rz.
 złotówkowy : przym.
-złoty : przym.
-złoty : rz.
+złoty : przym.rz.
 złowieszczy : przym.
 złowrogi : przym.
 złowrogo : przysł.
@@ -43076,8 +42777,7 @@ zżywać się : cz.
 żakiecik : rz.
 żakiet : rz.
 żakowski : przym.
-żal : przysł.
-żal : rz.
+żal : przysł.rz.
 żale : rz.
 żalić się : cz.
 żaluzja : rz.
@@ -43206,8 +42906,7 @@ zżywać się : cz.
 żołnierz : rz.
 żołnierzyk : rz.
 żona : rz.
-żonaty : przym.
-żonaty : rz.
+żonaty : przym.rz.
 żoneczka : rz.
 żongler : rz.
 żonglerka : rz.
@@ -43281,8 +42980,7 @@ zżywać się : cz.
 życzeniowy : przym.
 życzliwie : przysł.
 życzliwość : rz.
-życzliwy : przym.
-życzliwy : rz.
+życzliwy : przym.rz.
 życzyć : cz.
 żyć : cz.
 żyd : rz.
