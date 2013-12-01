@@ -14,7 +14,7 @@ public class HoroscopeBuilder {
 	private final String url = "http://horoskopy.gazeta.pl/horoskopy-magia/";
 	
 	private String preparePattern(String zodiacSign){
-		String currentDate = "25-11-2013";
+		String currentDate = "25-11-2012";
 		StringBuilder builder = new StringBuilder();
 		
 		try{

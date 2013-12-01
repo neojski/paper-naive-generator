@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-1.0" maxWidth="-1.0" minHeight="-1.0" minWidth="-1.0" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="bullshit_paper_gui.MainWindowController">
+  <children>
+    <GridPane id="mainPane" fx:id="_mainPane" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <Label text="Sections:" GridPane.columnIndex="0" GridPane.rowIndex="1">
+          <GridPane.margin>
+            <Insets left="5.0" fx:id="x1" />
+          </GridPane.margin>
+        </Label>
+        <Label text="Title:" GridPane.columnIndex="0" GridPane.margin="$x1" GridPane.rowIndex="0" />
+        <TextField id="_titleTextField" fx:id="_titleTF" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <Label text="Name:" GridPane.columnIndex="0" GridPane.margin="$x1" GridPane.rowIndex="4" />
+        <Label text="Tags:" GridPane.columnIndex="0" GridPane.margin="$x1" GridPane.rowIndex="5" />
+        <Label text="Header color:" GridPane.columnIndex="0" GridPane.margin="$x1" GridPane.rowIndex="6" />
+        <CheckBox id="sudokuCheckBox" fx:id="_sectionSudokuCB" mnemonicParsing="false" text="Sudoku" GridPane.columnIndex="0" GridPane.margin="$x1" GridPane.rowIndex="7" />
+        <TextField id="nameTextField" fx:id="_sectionNameTF" prefWidth="202.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <TextField id="_tagsTextField" fx:id="_sectionTagsTF" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+        <ColorPicker fx:id="_sectionHeaderColorPicker" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+        <Button id="_renderButton" fx:id="_renderBt" mnemonicParsing="false" onAction="#handleRender" text="Render" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="8">
+          <GridPane.margin>
+            <Insets bottom="10.0" right="10.0" />
+          </GridPane.margin>
+        </Button>
+        <ListView fx:id="_sectionsLV" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="0" GridPane.columnSpan="3" GridPane.rowIndex="2">
+          <GridPane.margin>
+            <Insets left="5.0" right="5.0" />
+          </GridPane.margin>
+        </ListView>
+        <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="3">
+          <children>
+            <Button id="_addSectionButton" fx:id="_addSectionBt" mnemonicParsing="false" onAction="#handleAddSection" text="Add" />
+            <Button id="_removeSectionSection" fx:id="_removeSectionBt" disable="false" mnemonicParsing="false" onAction="#handleRemoveSection" text="Remove" />
+          </children>
+          <padding>
+            <Insets left="5.0" top="2.0" />
+          </padding>
+        </HBox>
+        <Label fx:id="_statusLabel" text="" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="8">
+          <GridPane.margin>
+            <Insets left="5.0" fx:id="x1" />
+          </GridPane.margin>
+        </Label>
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="394.0" minWidth="0.0" prefWidth="218.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="534.0" minWidth="10.0" prefWidth="382.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="534.0" minWidth="10.0" prefWidth="382.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="72.0" minHeight="8.0" prefHeight="15.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="192.0" minHeight="10.0" prefHeight="192.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="95.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="99.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="80.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="69.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+</AnchorPane>

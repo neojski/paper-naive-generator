@@ -34,11 +34,11 @@ public class OnetArticleProvider implements IArticleProvider{
         try {
             LinkedList<Document> res = new LinkedList<>();
             String url = searchURL + buildQuery(tags);
-            Document doc = Jsoup.connect(url).userAgent(chromeUserAgent).get();
+            Document doc = Jsoup.connect(url).timeout(10000).userAgent(chromeUserAgent).get();
             for (Element e : doc.select("#searchProxyMain .link a")) {
                 String articleURL = e.attr("href");
                 
-                Document article = Jsoup.connect(articleURL).userAgent(chromeUserAgent).get();
+                Document article = Jsoup.connect(articleURL).timeout(10000).userAgent(chromeUserAgent).get();
                 res.add(article);
             }
             return res;
